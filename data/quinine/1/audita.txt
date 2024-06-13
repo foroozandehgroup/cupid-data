@@ -1,0 +1,18 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ E:/gam_group_data/Research/2016/MF/data/JANUS/nmr/Quinine/3/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2016-06-14 13:10:56.326 +0100>,<nmrsu>,<b500a>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2016-06-14 12:33:24.306 +0100,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       89 C1 2D 0B 9F 3B EF 0D FA 37 EC 0A 7D 0D 09 7B
+       data hash MD5: 16K * 128
+       08 B9 58 8C 1A FD A3 3B B1 3B 56 98 AF 2A 18 F5>)
+##END=
+
+$$ hash MD5
+$$ C2 5B 30 B8 19 A0 31 66 A0 86 54 15 DF F2 26 A8

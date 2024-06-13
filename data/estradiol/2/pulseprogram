@@ -1,0 +1,298 @@
+# 1 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/user/kp_ifPSYCHE2_r1"
+;broadband pure shift NMR using 
+;interferogram PSYCHE method 
+;with two small flip angle saltire wurst pulses
+
+;release-1: tested on TopSpin 4.0.7
+
+; Developed by 
+; School of Chemistry, University of Manchester, United Kingdom
+; May 2019, Peter Kiraly 
+;
+;References:
+; Foroozandeh M, Adams RW, Meharry NJ, Jeannerat D, Nilsson M, Morris GA. Angew.Chem.Int.Ed. 2014, 53, 6990-6992.
+; Foroozandeh M,  Morris GA., Nilsson M Chem.Eur.J. 2018, 24, 13988-14000.
+# 15 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/user/kp_ifPSYCHE2_r1"
+;$CLASS=HighRes
+;$DIM=2D
+;$TYPE=
+;$SUBTYPE=
+;$COMMENT=
+
+;cnst48: beta flip angle of the PSYCHE pulse [<<90]
+;cnst50: sweep-width of the PSYCHE pulse [10 kHz]
+;cnst51: duration of the PSYCHE pulse [25 ms]
+
+;spw50: calulated power level of the PSYCHE pulse [35-60 dB]
+;sp50(p50):wvm:kp_ifPS2:f1 cawurst-40(cnst50 kHz, cnst51 ms; NPOINTS=10000, L2H) cawurst-40(cnst50 kHz, cnst51 ms; H2L)
+# 1 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/Avance.incl" 1
+;Avance3.incl
+;   for AV III
+;
+;avance-version (13/06/17)
+;
+;$CLASS=HighRes Incl
+;$COMMENT=
+
+
+# 169 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/Avance.incl"
+;$Id: Avance3.incl,v 1.10.2.2 2013/08/30 09:43:33 ber Exp $
+# 30 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/user/kp_ifPSYCHE2_r1" 2
+
+# 1 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/Delay.incl" 1
+;Delay.incl  -  include file for commonly used delays
+;
+;version (13/08/07)
+;
+;$CLASS=HighRes Incl
+;$COMMENT=
+
+# 9 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/Delay.incl"
+;general delays
+
+define delay DELTA
+define delay DELTA1
+define delay DELTA2
+define delay DELTA3
+define delay DELTA4
+define delay DELTA5
+define delay DELTA6
+define delay DELTA7
+define delay DELTA8
+define delay DELTA9
+define delay DELTA10
+define delay DELTA11
+define delay DELTA12
+define delay DELTA13
+define delay DELTA14
+define delay DELTA15
+define delay DELTA16
+
+define delay TAU
+define delay TAU1
+define delay TAU2
+define delay TAU3
+define delay TAU4
+define delay TAU5
+define delay TAU6
+define delay TAU7
+define delay TAU8
+define delay TAU9
+# 40 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/Delay.incl"
+define delay INCR1
+define delay INCR2
+define delay INCR3
+define delay INCR4
+define delay INCR5
+define delay INCR6
+
+
+;delays for centering pulses
+# 50 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/Delay.incl"
+define delay CEN_HN1
+define delay CEN_HN2
+define delay CEN_HN3
+define delay CEN_HC1
+define delay CEN_HC2
+define delay CEN_HC3
+define delay CEN_HC4
+define delay CEN_HP1
+define delay CEN_HP2
+define delay CEN_CN1
+define delay CEN_CN2
+define delay CEN_CN3
+define delay CEN_CN4
+define delay CEN_CP1
+define delay CEN_CP2
+
+
+;loop counters
+# 69 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/Delay.incl"
+define loopcounter COUNTER
+define loopcounter SCALEF
+define loopcounter FACTOR1
+define loopcounter FACTOR2
+define loopcounter FACTOR3
+define loopcounter FACTOR4
+define loopcounter FACTOR5
+define loopcounter FACTOR6
+
+
+# 80 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/Delay.incl"
+;$Id: Delay.incl,v 1.14.2.1 2013/08/30 09:43:33 ber Exp $
+# 31 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/user/kp_ifPSYCHE2_r1" 2
+
+# 1 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/Grad.incl" 1
+;Grad2.incl  -  include file for Gradient Spectroscopy
+;   for TCU3
+;
+;avance-version (07/01/17)
+;
+;$CLASS=HighRes Incl
+;$COMMENT=
+
+# 27 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/Grad.incl"
+define list<gradient> EA=<EA>
+
+
+# 31 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/Grad.incl"
+;$Id: Grad2.incl,v 1.14 2012/01/31 17:49:21 ber Exp $
+# 32 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/user/kp_ifPSYCHE2_r1" 2
+
+# 1 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/De.incl" 1
+;De2.incl
+;   for AVi
+;
+;avance-version (08/02/15)
+;
+;$CLASS=HighRes Incl
+;$COMMENT=
+
+# 10 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/De.incl"
+define delay rde1
+
+
+"rde1=de-de1"
+# 24 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/De.incl"
+;for multi receive
+
+
+# 33 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/De.incl"
+;$Id: De2.incl,v 1.8 2012/01/31 17:49:21 ber Exp $
+# 33 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/user/kp_ifPSYCHE2_r1" 2
+
+
+# 36 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/user/kp_ifPSYCHE2_r1"
+define delay tauA
+define delay tauD
+
+
+;comment out the following 2 lines to fix pfg group delay after calibrations
+;NMR probe dependent
+;"d18=35u"
+;"d19=20u"
+# 45 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/user/kp_ifPSYCHE2_r1"
+;"if (d18 < 0.000001) {d18=0.000035;}"
+;"if (d19 < 0.000001) {d19=0.000020;}"
+
+"d18=20u"
+"d19=1m"
+
+"p2=p1*2"
+# 54 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/user/kp_ifPSYCHE2_r1"
+"d11=30m+1s/(1+cnst48)"
+"d11=30m+1s/(1+cnst50)"
+"d11=30m+1s/(1+cnst51)"
+"d11=30m"
+
+"d0=0"
+"in0=inf1/2"  
+
+"if (d16 < 0.00011) {d16=0.0001;}"
+"d17=d16-50u"
+# 65 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/user/kp_ifPSYCHE2_r1"
+"tauA=in0/2-p16-d16"
+"if (tauA < 0.00001) {tauA=0.00001;}"
+
+"tauD=de+p1*2/3.1416+(dw*2*cnst4)"
+
+"p50=cnst51*1000.0"
+"spw50=plw1/(((1000000.0/(((cnst48/360)*sqrt((2*cnst50*1000)/(p50/1000000)))*4))/p1)*((1000000.0/(((cnst48/360)*sqrt((2*cnst50*1000)/(p50/1000000)))*4))/p1))"
+# 74 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/user/kp_ifPSYCHE2_r1"
+"acqt0=0"
+baseopt_echo
+
+
+# 1 "mc_line 78 file C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/user/kp_ifPSYCHE2_r1 exp. def. part of mc cmd. before ze"
+; dimension 2D; AQ_mode  (F1) QF
+define delay MCWRK
+define delay MCREST
+"MCREST = d11 - d11"
+"MCWRK = 0.500000*d11"
+
+    dccorr
+# 78 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/user/kp_ifPSYCHE2_r1"
+1 ze
+# 1 "mc_line 78 file C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/user/kp_ifPSYCHE2_r1 exp. def. of mc cmd. after ze"
+LBLAV, MCWRK
+# 79 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/user/kp_ifPSYCHE2_r1"
+# 1 "mc_line 79 file C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/user/kp_ifPSYCHE2_r1 exp. start label for mc cmd."
+2 MCWRK 
+LBLF1, MCWRK
+  MCREST
+# 80 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/user/kp_ifPSYCHE2_r1"
+  50u setnmr0^34^32^33 ctrlgrad 7	
+  50u setnmr3^0 
+  d1 pl1:f1
+  50u setnmr3|0 
+  50u setnmr0|34|32|33 ctrlgrad 0 
+ 
+3 p1 ph1 
+  d0
+  tauA
+  p16:gp1 
+  d16
+  p2 ph2
+  p16:gp1 
+  d16
+  tauA
+# 96 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/user/kp_ifPSYCHE2_r1"
+  tauD 
+
+  d16
+  p16:gp2 
+  d16 
+
+  d18
+  d19 gron0 
+  (p50:sp50 ph3):f1 
+  (p50:sp50 ph3):f1   
+  d19 
+	d18 groff
+  d16
+# 110 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/user/kp_ifPSYCHE2_r1"
+  p16:gp2 
+  50u 
+  d17 setnmr0^34^32^33 ctrlgrad 7
+  d0
+
+  go=2 ph31
+# 1 "mc_line 116 file C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/user/kp_ifPSYCHE2_r1 exp. mc cmd. in line"
+  MCWRK  wr #0 if #0 zd id0 
+  lo to LBLF1 times td1
+  MCWRK rf #0
+  lo to LBLAV times tdav
+# 117 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/user/kp_ifPSYCHE2_r1"
+
+  50u setnmr3^0
+exit
+# 121 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/user/kp_ifPSYCHE2_r1"
+; ns =   2    4        8               16                               32                                                                64
+ ph1 = 0 2  0 2  0 2 0 2  1 3 1 3 1 3 1 3  0 2 0 2 0 2 0 2 1 3 1 3 1 3 1 3
+ ph2 = 0 0  0 0  1 1 1 1 	0 0 0 0 1 1 1 1  0 0 0 0 1 1 1 1 0 0 0 0 1 1 1 1   2 2 2 2 3 3 3 3 2 2 2 2 3 3 3 3 2 2 2 2 3 3 3 3 2 2 2 2 3 3 3 3 
+ ph3 = 0 0  1 1  0 0 1 1  0 0 1 1 0 0 1 1  2 2 3 3 2 2 3 3 2 2 3 3 2 2 3 3 
+ph31 = 0 2  2 0  2 0 0 2  1 3 3 1 3 1 1 3  0 2 2 0 2 0 0 2 1 3 3 1 3 1 1 3
+
+
+# 129 "C:/Bruker/TopSpin3.6.2/exp/stan/nmr/lists/pp/user/kp_ifPSYCHE2_r1"
+;pl1 : high power (dB) 
+;p1  : 90 degree high power pulse
+;p16 : duration of CTP gradients [0.5m-1m]
+;p12 : duration of ASR
+;d0  : incremented delay
+;d1  : relaxation delay
+;d16 : recovery delay for gradients [200u-1m]
+;d18 : gradient group delay adjustment [20u-200u]
+;d19 : gradient group delay adjustment [20u-200u]
+;gpz1: CTP gradient (31%)
+;gpz2: CTP gradient (47%)
+;gpz0: weak gradient during ASR [1-3%]
+;gpnam1: shape of CTP gradient [SINE.100]
+;gpnam2: shape of CTP gradient [SINE.100]
+;cnst4: number of drop points [4*i, i=1,2,...]
+;in0 : 1/(2 * SW) = DW
+;td1 : number of chunks
+;FnMODE: QF(no-frequency)
+;	       use xf2, pshift4
+;ns : (1),2*n
+;ds: 4*m

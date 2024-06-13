@@ -1,0 +1,24 @@
+##TITLE= Parameter file, TopSpin 3.6.2
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr-user
+$$ 2023-02-02 15:22:10.231 +0000  CHEM\nmr-user@GOLDFISH-CRL
+$$ Q:/AVX500/2023/data/service/nmr/sh689030202_con3/3/acqu2
+$$ process C:\Bruker\TopSpin3.6.2\prog\mod\dirdata.exe
+##$ACQT0= 0
+##$BF1= 500.3
+##$FnILOOP= 0
+##$FnMODE= 1
+##$NUC1= <1H>
+##$NusJSP= 0
+##$NusT2= 1
+##$NusTD= 0
+##$O1= 2351.41
+##$ProjAngle= 0
+##$SFO1= 500.30235141
+##$SW= 0.199879072561463
+##$SW_h= 100
+##$TD= 128
+##END=

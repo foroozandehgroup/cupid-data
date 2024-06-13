@@ -1,0 +1,33 @@
+
+Report of AU program poptau
+
+Number of experiments: 11
+total experiment time will be: 33 sec
+
+F1P=7.635ppm F2P=6.962ppm
+Target directory for serfile: /opt/research/2013/RA/data/FZS/nmr/AcquisitionSetup/899
+PH_mode=0  FT_mod=6 
+
+
+PROCNO=999
+
+Linear optimization of p1 in 11 steps, as Step: Group 0
+starting at 40.000000000  endval= 50.000000000 
+OPTIMUM= POSMAX
+VARMOD= LIN
+
+Experiment         p1         Maximum point   Minimum point       Integral
+     1      40.000000000000               0        -1775913      -1607401.541954
+     2      41.000000000000               0        -1504551      -1362291.846349
+     3      42.000000000000               0        -1228752      -1107882.662913
+     4      43.000000000000               0         -923313       -833581.032692
+     5      44.000000000000               0         -617822       -535969.027969
+     6      45.000000000000               0         -301745       -235015.232110
+     7      46.000000000000          122632           28685         74187.574283
+     8      47.000000000000          464476          309822        381937.402470
+     9      48.000000000000          769550          582337        677276.736651
+    10      49.000000000000         1072488          862198        962288.918271
+    11      50.000000000000         1360903         1101434       1222750.316745
+poptau for p1 finished.
+POSMAX at experiment 11:  p1 = 50.0000  
+

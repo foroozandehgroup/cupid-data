@@ -1,0 +1,12 @@
+## Wavemaker parameter file. 
+## PULPROG: kp_ifPSYCHE2_r1 
+
+kp_ifPS2:f1 
+  cawurst-40(10 kHz, 25 ms; NPOINTS=10000, L2H)
+  cawurst-40(10 kHz, 25 ms; H2L)
+  nuc =  1H 
+  p90 =  15.000 us
+  pl =   31.537001 W
+  BF =  500.3000000 MHz
+  ofs =   5.000000 ppm 
+

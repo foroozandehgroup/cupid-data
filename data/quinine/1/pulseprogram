@@ -1,0 +1,94 @@
+# 1 "C:/Bruker/TopSpin3.2/exp/stan/nmr/lists/pp/user/janus.mf"
+;janus.mf
+;avance-version (12/01/11)
+;homonuclear J-resolved 2D correlation
+;for JANUS 
+;using beta flip angle
+;$CLASS=HighRes
+;$DIM=2D
+;$TYPE=
+;$SUBTYPE=
+;$COMMENT=
+
+# 1 "C:/Bruker/TopSpin3.2/exp/stan/nmr/lists/pp/Avance.incl" 1
+;Avance3.incl
+;   for AV III
+;
+;avance-version (13/06/17)
+;
+;$CLASS=HighRes Incl
+;$COMMENT=
+
+# 169 "C:/Bruker/TopSpin3.2/exp/stan/nmr/lists/pp/Avance.incl"
+;$Id: Avance3.incl,v 1.9.8.3 2013/08/30 09:44:49 ber Exp $
+# 12 "C:/Bruker/TopSpin3.2/exp/stan/nmr/lists/pp/user/janus.mf" 2
+
+
+"p2=p1*2"
+"in0=inf1/2"
+"d0=3u"
+"p0=p1*(cnst3/90)"
+# 1 "mc_line 19 file C:/Bruker/TopSpin3.2/exp/stan/nmr/lists/pp/user/janus.mf exp. def. part of mc cmd. before ze"
+define delay MCWRK
+define delay MCREST
+define delay d0orig
+"d0orig=d0"
+define loopcounter t1loop
+"t1loop=0"
+define loopcounter ph1loop
+"ph1loop=0"
+define loopcounter ST1CNT
+"ST1CNT = td1"
+"MCREST = d1 - d1"
+"MCWRK = 0.500000*d1"
+
+    dccorr
+# 19 "C:/Bruker/TopSpin3.2/exp/stan/nmr/lists/pp/user/janus.mf"
+# 19 "C:/Bruker/TopSpin3.2/exp/stan/nmr/lists/pp/user/janus.mf"
+1 ze
+# 1 "mc_line 19 file C:/Bruker/TopSpin3.2/exp/stan/nmr/lists/pp/user/janus.mf exp. def. of mc cmd. after ze"
+      "d0=d0orig + t1loop * in0 "
+# 20 "C:/Bruker/TopSpin3.2/exp/stan/nmr/lists/pp/user/janus.mf"
+# 1 "mc_line 20 file C:/Bruker/TopSpin3.2/exp/stan/nmr/lists/pp/user/janus.mf exp. start label for mc cmd."
+2 MCWRK 
+LBLST1, MCWRK
+  MCREST
+# 21 "C:/Bruker/TopSpin3.2/exp/stan/nmr/lists/pp/user/janus.mf"
+3 p0 ph1
+  d0
+  p2 ph2
+  d0
+  go=2 ph31
+# 1 "mc_line 26 file C:/Bruker/TopSpin3.2/exp/stan/nmr/lists/pp/user/janus.mf exp. mc cmd. in line"
+  MCWRK  wr #0 if #0 zd 
+
+  "t1loop+=1"
+      "d0=d0orig + t1loop * in0 "
+  lo to LBLST1 times ST1CNT
+  MCWRK 
+  "t1loop=0"
+  MCWRK
+# 27 "C:/Bruker/TopSpin3.2/exp/stan/nmr/lists/pp/user/janus.mf"
+exit
+
+ph1= 0 0 0 0
+ph2= 0 1 2 3
+ph31=0 2 0 2 
+
+# 34 "C:/Bruker/TopSpin3.2/exp/stan/nmr/lists/pp/user/janus.mf"
+;pl1 : f1 channel - power level for pulse (default)
+;p1 : f1 channel -  90 degree high power pulse
+;p2 : f1 channel - 180 degree high power pulse
+;d0 : initial incremented delay (dw-p1)
+;d1 : relaxation delay; 1-5 * T1
+;inf1: 1/w, w = max. width of multiplet
+;in0: 1/(2 * w), w = max. width of multiplet
+;nd0: 2
+;ns: 4 * n
+;ds: 16
+;td1: number of experiments
+;FnMODE: QF
+
+
+# 49 "C:/Bruker/TopSpin3.2/exp/stan/nmr/lists/pp/user/janus.mf"
+;$Id: jresqf,v 1.6.8.1 2012/01/31 17:56:33 ber Exp $

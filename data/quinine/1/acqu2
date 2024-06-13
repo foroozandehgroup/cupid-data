@@ -1,0 +1,22 @@
+##TITLE= Parameter file, TOPSPIN		Version 3.2
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 6	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ 2016-06-14 11:58:22.321 +0100  nmrsu@b500a
+$$ E:/gam_group_data/Research/2016/MF/data/JANUS/nmr/Quinine/3/acqu2
+$$ process C:\Bruker\TopSpin3.2\prog\mod\dataserver.exe
+##$ACQT0= 0
+##$BF1= 500.13
+##$FnMODE= 1
+##$NUC1= <1H>
+##$NusJSP= 0
+##$NusT2= 0
+##$NusTD= 0
+##$O1= 2500
+##$SFO1= 500.1325
+##$SW= 0.0999735070206395
+##$SW_h= 50
+##$TD= 128
+##END=
