@@ -1,5 +1,7 @@
 # CUPID Paper: Experimental Data
 
+[![DOI](https://zenodo.org/badge/814870133.svg)](https://zenodo.org/badge/latestdoi/814870133)
+
 This repository provides the experimental datasets which are presented in the following paper:
 
 **Ultrahigh-Resolution NMR Full Signal Intensities**
