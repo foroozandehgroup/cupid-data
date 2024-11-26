@@ -1,7 +1,7 @@
 # build_readme.py
 # Simon Hulse
 # simonhulse@protonmail.com
-# Last Edited: Tue 26 Nov 2024 10:45:52 AM EST
+# Last Edited: Tue 26 Nov 2024 11:07:16 AM EST
 
 
 from pathlib import Path
@@ -10,7 +10,7 @@ import requests
 
 
 def build_author(name: str, idx: int, orcid: str) -> str:
-    return f'{name}<sup>{idx}</sup>: ![ORCID](ORCID-iD_icon_24x24.png) {orcid}'
+    return f'{name}<sup>{idx}</sup> ![ORCID](ORCID-iD_icon_16x16.png) {orcid}'
 
 
 with open("readme_template.txt", "r") as fh:
@@ -40,7 +40,7 @@ fields = {key[1:]: value for key, value in re.findall(regex, fields_txt)}
 readme_txt = readme_txt.format(
     REPO_ID=repo_id,
     TITLE=fields['TITLE'],
-    AUTHORS='\n'.join(
+    AUTHORS='\n\n'.join(
             [
                 build_author(fields['SH'], 1, fields['SHORCID']),
                 build_author(fields['MN'], 2, fields['MNORCID']),

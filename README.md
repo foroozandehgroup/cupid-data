@@ -6,10 +6,13 @@ This repository provides the experimental datasets which are presented in the fo
 
 **Full-Signal Ultrahigh-Resolution NMR**
 
-Simon G. Hulse<sup>1</sup>: ![ORCID](ORCID-iD_icon_24x24.png) https://orcid.org/0000-0002-5822-6198
-Mathias Nilsson<sup>2</sup>: ![ORCID](ORCID-iD_icon_24x24.png) https://orcid.org/0000-0003-3301-7899
-Gareth A. Morris<sup>2</sup>: ![ORCID](ORCID-iD_icon_24x24.png) https://orcid.org/0000-0002-4859-6259
-Mohammadali Foroozandeh<sup>1</sup>: ![ORCID](ORCID-iD_icon_24x24.png) https://orcid.org/0000-0001-8937-3118
+Simon G. Hulse<sup>1</sup> ![ORCID](ORCID-iD_icon_16x16.png) https://orcid.org/0000-0002-5822-6198
+
+Mathias Nilsson<sup>2</sup> ![ORCID](ORCID-iD_icon_16x16.png) https://orcid.org/0000-0003-3301-7899
+
+Gareth A. Morris<sup>2</sup> ![ORCID](ORCID-iD_icon_16x16.png) https://orcid.org/0000-0002-4859-6259
+
+Mohammadali Foroozandeh<sup>1</sup> ![ORCID](ORCID-iD_icon_16x16.png) https://orcid.org/0000-0001-8937-3118
 
 <sup>1</sup>*Chemistry Research Laboratory, University of Oxford, 12 Mansfield Rd, Oxford, OX1 3TA, UK*
 
