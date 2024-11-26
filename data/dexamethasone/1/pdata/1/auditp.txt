@@ -1,0 +1,23 @@
+##TITLE= Audit trail, TopSpin 4.0.8
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= simon
+$$ /home/simon/Documents/DPhil/data/dexamethasone/3/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2022-10-26 16:26:01.440 +0100>,<CHEM\nmr-user>,<JELLYFISH-CRL>,<go4>,<TopSpin 3.6.2>,
+      <created by zg
+	started at 2022-10-26 16:19:52.284 +0100,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       A3 AB DD 5D EE 01 19 1F 80 19 E6 5E 7F 97 44 FD
+       data hash MD5: 8K * 64
+       11 84 46 FD 75 90 FC 5E 2F 99 D7 55 8E EF 54 E8>)
+(   2,<2023-07-25 13:13:42.548 +0100>,<simon>,<precision>,<proc2d>,<TopSpin 4.0.8>,
+      <Start of raw data processing
+       xfb F2: SI = 1K WDW = 3 SSB = 0 FT_mod = 6 PKNL = 1 F1: SI = 1K ME_mod = 2 NCOEF = 32 WDW = 3 SSB = 0 FT_mod = 6 FCOR = 0.5 PH_mod = 2
+       data hash MD5: 1K * 1K
+       52 84 A5 ED BB 66 17 8B 02 A9 E6 0A 79 2B D8 B4>)
+##END=
+
+$$ hash MD5
+$$ B9 00 E3 51 FC DC 80 87 C6 64 8C 5E 72 63 44 04

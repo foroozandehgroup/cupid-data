@@ -1,0 +1,15 @@
+##TITLE= Audit trail, TopSpin 4.0.8
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= simon
+$$ /home/simon/Documents/DPhil/data/quinine/2/pdata/999/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2023-07-20 15:23:23.222 +0100>,<simon>,<precision>,<mvrow>,<TopSpin 4.0.8>,
+      <f2sum 1 128 from
+       1 2 "quinine" "/home/simon/Documents/DPhil/data"
+       data hash MD5: 16K
+       6B 26 24 22 73 89 21 A0 54 B5 FC D3 61 64 D0 79>)
+##END=
+
+$$ hash MD5
+$$ 54 25 65 E2 47 8E 39 B6 D5 8E B0 C5 35 94 7E 4F

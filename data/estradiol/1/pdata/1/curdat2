@@ -1,0 +1,17 @@
+##TITLE= Parameter file, TopSpin 4.0.8
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= simon
+$$ 2023-07-25 13:51:00.374 +0100  simon@precision
+$$ /home/simon/Documents/DPhil/data/estradiol/62/pdata/1/curdat2
+$$ process /opt/topspin4.0.8/prog/mod/dataserver
+##$DATPATH2= </home/simon/Documents/DPhil/data>
+##$DU2= <>
+##$EXPNO2= 62
+##$NAME2= <estradiol>
+##$PROCNO2= 999
+##$TYPE= <>
+##$USER2= <>
+##END=

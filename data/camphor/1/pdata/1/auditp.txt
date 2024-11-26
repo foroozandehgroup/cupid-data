@@ -1,0 +1,36 @@
+##TITLE= Audit trail, TopSpin 4.0.8
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= simon
+$$ /home/simon/Documents/DPhil/data/Camphor/2/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2016-05-14 15:14:09.480 +0100>,<nmrsu>,<b500a>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2016-05-14 14:31:55.229 +0100,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       89 C1 2D 0B 9F 3B EF 0D FA 37 EC 0A 7D 0D 09 7B
+       data hash MD5: 16K * 128
+       D9 94 91 A8 38 88 EC AC 30 8F 95 15 E0 61 13 91>)
+(   2,<2022-09-20 13:46:32.907 +0100>,<simon>,<precision>,<proc2d>,<TopSpin 4.0.8>,
+      <Start of raw data processing
+       xfb F2: SI = 16K WDW = 3 SSB = 0 FT_mod = 6 PKNL = 1 F1: SI = 64 WDW = 3 SSB = 0 FT_mod = 6 FCOR = 0.5 PH_mod = 2
+       data hash MD5: 16K * 64
+       7B C2 F7 0F 62 7E 14 0D 90 E3 C6 40 6D 0A 79 63>)
+(   3,<2022-09-20 13:46:35.369 +0100>,<simon>,<precision>,<proc2d>,<TopSpin 4.0.8>,
+      <abs1 F1: ABSG = 5 ABSF1 = 2.049467 ABSF2 = 1.949493
+       data hash MD5: 16K * 64
+       74 D2 F8 2E 84 7C 3B B3 77 E2 81 37 86 C4 AA 8B>)
+(   4,<2022-09-20 13:46:35.412 +0100>,<simon>,<precision>,<proc2d>,<TopSpin 4.0.8>,
+      <abs2 F2: ABSG = 5 ABSF1 = 6.99818 ABSF2 = 0.0004875938
+       data hash MD5: 16K * 64
+       B0 79 D6 20 0D 56 48 3F C8 44 96 3A 40 1D 57 76>)
+$$ /home/simon/Documents/DPhil/data/camphor/2/pdata/1/auditp.txt
+(   5,<2023-07-20 17:05:31.668 +0100>,<simon>,<precision>,<proc2d>,<TopSpin 4.0.8>,
+      <tilt
+       data hash MD5: 16K * 64
+       28 29 51 05 E6 87 86 C9 D4 A1 B2 E9 F4 AB 1B 1E>)
+##END=
+
+$$ hash MD5
+$$ 05 3D 27 7C 6A E5 ED D3 AA 04 56 B2 89 6D 1A 4F

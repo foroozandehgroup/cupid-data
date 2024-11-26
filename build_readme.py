@@ -1,49 +1,25 @@
 # build_readme.py
 # Simon Hulse
 # simonhulse@protonmail.com
-# Last Edited: Mon 25 Nov 2024 11:20:27 PM EST
+# Last Edited: Tue 26 Nov 2024 10:45:52 AM EST
 
 
 from pathlib import Path
 import re
 import requests
 
-readme_txt = """# CUPID Paper: Experimental Data
 
-[![DOI](https://zenodo.org/badge/{REPO_ID}.svg)](https://zenodo.org/badge/latestdoi/{REPO_ID})
+def build_author(name: str, idx: int, orcid: str) -> str:
+    return f'{name}<sup>{idx}</sup>: ![ORCID](ORCID-iD_icon_24x24.png) {orcid}'
 
-This repository provides the experimental datasets which are presented in the following paper:
 
-**{TITLE}**
-
-{AUTHORS}
-
-<sup>1</sup>*{OXFORD}*
-
-<sup>2</sup>*{MANCHESTER}*
-
-<sup>*</sup>`{EMAIL}`
-
-`<INSERT CITATION HERE>`
-
-## Datasets
-
-* `data/camphor/1` - Camphor 2DJ dataset, presented in the {SI_LONG}, Figure 8.
-* `data/dexamethasone/` - Dexamethasone data, presented in the {SI_SHORT}, Figure 9:
-
-    - `1/` - 2DJ dataset.
-    - `2/` - TSE PSYCHE dataset.
-
-* `data/estradiol/` - 17β-estradiol dataset, presented in Figure 3 of the main paper:
-
-    - `1/` - 2DJ dataset.
-    - `2/` - PSYCHE dataset.
-
-* `data/quinine/1` - Quinine 2DJ dataset, presented in Figure 2 of the main paper."""
+with open("readme_template.txt", "r") as fh:
+    readme_txt = fh.read()
 
 dst = 'README.md'
 token_file = Path('~/.ghtoken').expanduser()
 github_api_link = 'https://api.github.com/repos/foroozandehgroup/cupid-data'
+field_file = 'https://raw.githubusercontent.com/simonhulse/cupid/master/fields.tex'
 
 repo_id = requests.get(github_api_link).json()['id']
 
@@ -51,7 +27,7 @@ repo_id = requests.get(github_api_link).json()['id']
 with open(token_file, 'r') as fh:
     token = fh.read().rstrip()
 fields_txt = requests.get(
-    'https://raw.githubusercontent.com/simonhulse/cupid/master/fields.tex',
+    field_file,
     headers={
         'accept': 'application/vnd.github.v3.raw',
         'authorization': 'token {}'.format(token)
@@ -64,11 +40,13 @@ fields = {key[1:]: value for key, value in re.findall(regex, fields_txt)}
 readme_txt = readme_txt.format(
     REPO_ID=repo_id,
     TITLE=fields['TITLE'],
-    AUTHORS='{SH}<sup>1</sup>, {MN}<sup>2</sup>, {GM}<sup>2</sup> {MF}<sup>1*</sup>'.format(
-        SH=fields['SH'],
-        MN=fields['MN'],
-        GM=fields['GM'],
-        MF=fields['MF'],
+    AUTHORS='\n'.join(
+            [
+                build_author(fields['SH'], 1, fields['SHORCID']),
+                build_author(fields['MN'], 2, fields['MNORCID']),
+                build_author(fields['GM'], 2, fields['GMORCID']),
+                build_author(fields['MF'], 1, fields['MFORCID']),
+            ]
     ),
     OXFORD=fields['OXFORD'],
     MANCHESTER=fields['MANCHESTER'],

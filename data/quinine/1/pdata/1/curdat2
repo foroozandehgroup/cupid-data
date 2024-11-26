@@ -1,0 +1,17 @@
+##TITLE= Parameter file, TopSpin 4.0.8
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 4	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= simon
+$$ 2023-07-20 16:08:28.334 +0100  simon@precision
+$$ /home/simon/Documents/DPhil/data/quinine/2/pdata/1/curdat2
+$$ process /opt/topspin4.0.8/prog/mod/dataserver
+##$DATPATH2= </home/simon/Documents/DPhil/data>
+##$DU2= <>
+##$EXPNO2= 2
+##$NAME2= <quinine>
+##$PROCNO2= 998
+##$TYPE= <>
+##$USER2= <>
+##END=

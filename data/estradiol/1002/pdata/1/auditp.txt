@@ -1,0 +1,29 @@
+##TITLE= Audit trail, TopSpin 3.6.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr-user
+$$ Q:/AVX500/2023/data/service/nmr/sh689030202_con3/1002/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2023-02-02 15:21:48.053 +0000>,<CHEM\nmr-user>,<GOLDFISH-CRL>,<mvrow>,<TopSpin 3.6.2>,
+      <rser 1 from
+       2 "sh689030202_con3" "C:/NMR/data/service/nmr"
+       data hash MD5: 16K
+       4B 32 90 9B 7C FB 4C 6A 06 52 B6 85 82 C8 22 0B>)
+(   2,<2023-02-02 15:21:48.942 +0000>,<CHEM\nmr-user>,<GOLDFISH-CRL>,<proc1d>,<TopSpin 3.6.2>,
+      <Unknown data manipulation detected
+       Start of raw data processing
+       efp LB = -0.01 FT_mod = 6 PKNL = 1 PHC0 = 108.5932 PHC1 = -30.0083 SI = 64K 
+       data hash MD5: 64K
+       8A 4E B6 A1 F7 B2 31 8F BE 6D 84 EC CF 02 A3 06>)
+(   3,<2023-02-02 15:21:49.042 +0000>,<CHEM\nmr-user>,<GOLDFISH-CRL>,<proc1d>,<TopSpin 3.6.2>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       29 7C E7 76 5E 6E DA 1F E8 12 EA 46 5A F9 97 A3>)
+(   4,<2023-02-02 15:22:16.550 +0000>,<CHEM\nmr-user>,<GOLDFISH-CRL>,<dirdata>,<TopSpin 3.6.2>,
+      <wrpa from 1 1002 "sh689030202_con3" "C:/NMR/data/service/nmr"
+       data hash MD5: 64K
+       29 7C E7 76 5E 6E DA 1F E8 12 EA 46 5A F9 97 A3>)
+##END=
+
+$$ hash MD5
+$$ BB 77 44 22 60 BF 9A 16 A5 65 61 B7 80 CC 50 06

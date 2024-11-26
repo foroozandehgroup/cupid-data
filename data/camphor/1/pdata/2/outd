@@ -1,0 +1,16 @@
+##TITLE= Parameter file, TopSpin 4.0.8
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= simon
+$$ 2023-07-20 17:05:45.937 +0100  simon@precision
+$$ /home/simon/Documents/DPhil/data/camphor/2/pdata/999/outd
+$$ process /opt/topspin4.0.8/prog/mod/mvrow
+##$CURPLOT= <lj4050>
+##$CURPRIN= <$lj4050>
+##$DFORMAT= <normdp>
+##$LAYOUT= <+/1D_H.xwp>
+##$LFORMAT= <normlp>
+##$PFORMAT= <normpl>
+##END=

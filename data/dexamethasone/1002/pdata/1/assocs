@@ -1,0 +1,11 @@
+##TITLE= Parameter file, TopSpin 4.0.8
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= simon
+$$ 2023-02-02 16:22:47.990 +0000  simon@precision
+$$ /home/simon/Documents/DPhil/data/dexamethasone/1004/pdata/1/assocs
+$$ process /opt/topspin4.0.8/prog/mod/dataserver
+##$MULTDISP= </home/simon/Documents/DPhil/data/dexamethasone/1005/pdata/1>
+##END=
