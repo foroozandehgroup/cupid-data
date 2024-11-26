@@ -4,11 +4,11 @@
 
 This repository provides the experimental datasets which are presented in the following paper:
 
-**Ultrahigh-Resolution NMR Full Signal Intensities**
+**Full-Signal Ultrahigh-Resolution NMR**
 
 Simon G. Hulse<sup>1</sup>, Mathias Nilsson<sup>2</sup>, Gareth A. Morris<sup>2</sup> Mohammadali Foroozandeh<sup>1*</sup>
 
-<sup>1</sup>*Chemistry Research Laboratory, University of Oxford, 12 Mansfield Rd, Oxford OX1 3TA, UK*
+<sup>1</sup>*Chemistry Research Laboratory, University of Oxford, 12 Mansfield Rd, Oxford, OX1 3TA, UK*
 
 <sup>2</sup>*Department of Chemistry, University of Manchester, Oxford Road, Manchester M13 9PL, UK*
 

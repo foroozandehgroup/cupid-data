@@ -1,7 +1,7 @@
 # build_readme.py
 # Simon Hulse
 # simonhulse@protonmail.com
-# Last Edited: Fri 14 Jun 2024 11:56:14 EDT
+# Last Edited: Mon 25 Nov 2024 11:20:27 PM EST
 
 
 from pathlib import Path
@@ -51,7 +51,7 @@ repo_id = requests.get(github_api_link).json()['id']
 with open(token_file, 'r') as fh:
     token = fh.read().rstrip()
 fields_txt = requests.get(
-    'https://raw.githubusercontent.com/foroozandehgroup/cupid-paper/master/fields.tex',
+    'https://raw.githubusercontent.com/simonhulse/cupid/master/fields.tex',
     headers={
         'accept': 'application/vnd.github.v3.raw',
         'authorization': 'token {}'.format(token)
@@ -72,9 +72,9 @@ readme_txt = readme_txt.format(
     ),
     OXFORD=fields['OXFORD'],
     MANCHESTER=fields['MANCHESTER'],
-    EMAIL=fields['EMAIL'],
-    SI_LONG=fields['SIlong'],
-    SI_SHORT=fields['SIshort'],
+    EMAIL=fields['MFEMAIL'],
+    SI_LONG=fields['SILONG'],
+    SI_SHORT=fields['SISHORT'],
 )
 
 with open(dst, 'w') as fh:
