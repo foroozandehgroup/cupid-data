@@ -1,0 +1,4 @@
+nmrespy
+jupyterlab
+jupyterlab-vim
+ipympl
