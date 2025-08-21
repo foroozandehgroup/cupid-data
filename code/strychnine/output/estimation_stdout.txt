@@ -1,0 +1,671 @@
+┌───────────────────────────────────────┐
+│ESTIMATING REGION: 8.14 - 8.05 ppm (F2)│
+└───────────────────────────────────────┘
+┌─────────────┐
+│MMEMP STARTED│
+└─────────────┘
+--> Computing number of oscillators...
+	Number of oscillators will be estimated using MDL on first t1 increment.
+	Number of oscillators: 7
+--> Pencil parameters: 64, 41
+--> Enhanced Block Hankel matrix constructed:
+	Size: 2624 x 2665
+	Memory: 0.1042GiB
+--> Performing Singular Value Decomposition...
+--> Checking for oscillators with negative damping...
+	None found
+┌──────────────┐
+│MMEMP COMPLETE│
+└──────────────┘
+Time elapsed: 0 mins, 3 secs, 188 msecs
+┌────────────────────┐
+│OPTIMISATION STARTED│
+└────────────────────┘
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.551882     │ 1.21818      │ 1            │
+│ 10    │ 0.297772     │ 0.197012     │ 0.5          │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 83 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 6
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.34968      │ 0.615272     │ 1            │
+│ 10    │ 0.0637022    │ 0.275024     │ 1            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 66 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 5
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.0349979    │ 1.25797      │ 1            │
+│ 10    │ 0.0119054    │ 0.0429939    │ 0.25         │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 60 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 4
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.0409493    │ 3.29641      │ 1            │
+│ 10    │ 0.0110762    │ 4.6071e-08   │ 1            │
+│ 12    │ 0.0110762    │ 3.36899e-09  │ 1            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Optimiser successfully converged.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 59 msecs
+┌─────────────────────┐
+│OPTIMISATION COMPLETE│
+└─────────────────────┘
+Time elapsed: 0 mins, 0 secs, 414 msecs
+Saved file ../../code/strychnine/output/estimator.pkl.
+┌──────────────────────────────────────┐
+│ESTIMATING REGION: 7.3 - 7.05 ppm (F2)│
+└──────────────────────────────────────┘
+┌─────────────┐
+│MMEMP STARTED│
+└─────────────┘
+--> Computing number of oscillators...
+	Number of oscillators will be estimated using MDL on first t1 increment.
+	Number of oscillators: 19
+--> Pencil parameters: 64, 113
+--> Enhanced Block Hankel matrix constructed:
+	Size: 7232 x 7345
+	Memory: 0.7915GiB
+--> Performing Singular Value Decomposition...
+--> Checking for oscillators with negative damping...
+	None found
+┌──────────────┐
+│MMEMP COMPLETE│
+└──────────────┘
+Time elapsed: 0 mins, 8 secs, 611 msecs
+┌────────────────────┐
+│OPTIMISATION STARTED│
+└────────────────────┘
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.136741     │ 1.23282      │ 1            │
+│ 10    │ 0.0501671    │ 0.104649     │ 2            │
+│ 20    │ 0.0366392    │ 0.0962774    │ 4            │
+│ 30    │ 0.0358247    │ 0.00362784   │ 1            │
+│ 40    │ 0.0358177    │ 7.77016e-06  │ 1            │
+│ 50    │ 0.0358177    │ 9.13921e-08  │ 1            │
+│ 56    │ 0.0358177    │ 6.8198e-09   │ 1            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Optimiser successfully converged.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 4 secs, 200 msecs
+┌─────────────────────┐
+│OPTIMISATION COMPLETE│
+└─────────────────────┘
+Time elapsed: 0 mins, 4 secs, 596 msecs
+Saved file ../../code/strychnine/output/estimator.pkl.
+┌───────────────────────────────────────┐
+│ESTIMATING REGION: 5.96 - 5.87 ppm (F2)│
+└───────────────────────────────────────┘
+┌─────────────┐
+│MMEMP STARTED│
+└─────────────┘
+--> Computing number of oscillators...
+	Number of oscillators will be estimated using MDL on first t1 increment.
+	Number of oscillators: 6
+--> Pencil parameters: 64, 41
+--> Enhanced Block Hankel matrix constructed:
+	Size: 2624 x 2730
+	Memory: 0.1067GiB
+--> Performing Singular Value Decomposition...
+--> Checking for oscillators with negative damping...
+	None found
+┌──────────────┐
+│MMEMP COMPLETE│
+└──────────────┘
+Time elapsed: 0 mins, 2 secs, 808 msecs
+┌────────────────────┐
+│OPTIMISATION STARTED│
+└────────────────────┘
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.316169     │ 2.25213      │ 1            │
+│ 10    │ 0.109705     │ 0.00172901   │ 2            │
+│ 20    │ 0.109668     │ 0.00216062   │ 0.015625     │
+│ 30    │ 0.109668     │ 9.01623e-06  │ 0.000976562  │
+│ 40    │ 0.109668     │ 3.44095e-07  │ 3.05176e-05  │
+│ 47    │ 0.109668     │ 4.66578e-09  │ 1.90735e-06  │
+└───────┴──────────────┴──────────────┴──────────────┘
+Optimiser successfully converged.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 320 msecs
+┌─────────────────────┐
+│OPTIMISATION COMPLETE│
+└─────────────────────┘
+Time elapsed: 0 mins, 0 secs, 482 msecs
+Saved file ../../code/strychnine/output/estimator.pkl.
+┌──────────────────────────────────────┐
+│ESTIMATING REGION: 4.35 - 4.0 ppm (F2)│
+└──────────────────────────────────────┘
+┌─────────────┐
+│MMEMP STARTED│
+└─────────────┘
+--> Computing number of oscillators...
+	Number of oscillators will be estimated using MDL on first t1 increment.
+	Number of oscillators: 16
+--> Pencil parameters: 64, 128
+--> Enhanced Block Hankel matrix constructed:
+	Size: 8192 x 8385
+	Memory: 1.0236GiB
+--> Performing Singular Value Decomposition...
+--> Checking for oscillators with negative damping...
+	None found
+┌──────────────┐
+│MMEMP COMPLETE│
+└──────────────┘
+Time elapsed: 0 mins, 7 secs, 242 msecs
+┌────────────────────┐
+│OPTIMISATION STARTED│
+└────────────────────┘
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.30133      │ 0.517512     │ 1            │
+│ 10    │ 0.0999698    │ 0.0581361    │ 2            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 942 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 14
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.0920001    │ 0.0563776    │ 1            │
+│ 8     │ 0.0890044    │ 7.02829e-09  │ 1            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Optimiser successfully converged.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 613 msecs
+┌─────────────────────┐
+│OPTIMISATION COMPLETE│
+└─────────────────────┘
+Time elapsed: 0 mins, 1 secs, 937 msecs
+Saved file ../../code/strychnine/output/estimator.pkl.
+┌──────────────────────────────────────┐
+│ESTIMATING REGION: 4.0 - 3.64 ppm (F2)│
+└──────────────────────────────────────┘
+┌─────────────┐
+│MMEMP STARTED│
+└─────────────┘
+--> Computing number of oscillators...
+	Number of oscillators will be estimated using MDL on first t1 increment.
+	Number of oscillators: 15
+--> Pencil parameters: 64, 128
+--> Enhanced Block Hankel matrix constructed:
+	Size: 8192 x 8385
+	Memory: 1.0236GiB
+--> Performing Singular Value Decomposition...
+--> Checking for oscillators with negative damping...
+	None found
+┌──────────────┐
+│MMEMP COMPLETE│
+└──────────────┘
+Time elapsed: 0 mins, 6 secs, 652 msecs
+┌────────────────────┐
+│OPTIMISATION STARTED│
+└────────────────────┘
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.0398829    │ 0.973766     │ 1            │
+│ 10    │ 0.00231048   │ 0.0046837    │ 2            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 840 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 14
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.00236709   │ 0.247292     │ 1            │
+│ 10    │ 0.00219462   │ 7.47684e-06  │ 1            │
+│ 17    │ 0.00219461   │ 8.01456e-09  │ 1            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Optimiser successfully converged.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 1 secs, 371 msecs
+┌─────────────────────┐
+│OPTIMISATION COMPLETE│
+└─────────────────────┘
+Time elapsed: 0 mins, 2 secs, 611 msecs
+Saved file ../../code/strychnine/output/estimator.pkl.
+┌──────────────────────────────────────┐
+│ESTIMATING REGION: 3.3 - 3.05 ppm (F2)│
+└──────────────────────────────────────┘
+┌─────────────┐
+│MMEMP STARTED│
+└─────────────┘
+--> Computing number of oscillators...
+	Number of oscillators will be estimated using MDL on first t1 increment.
+	Number of oscillators: 18
+--> Pencil parameters: 64, 113
+--> Enhanced Block Hankel matrix constructed:
+	Size: 7232 x 7410
+	Memory: 0.7985GiB
+--> Performing Singular Value Decomposition...
+--> Checking for oscillators with negative damping...
+	None found
+┌──────────────┐
+│MMEMP COMPLETE│
+└──────────────┘
+Time elapsed: 0 mins, 8 secs, 738 msecs
+┌────────────────────┐
+│OPTIMISATION STARTED│
+└────────────────────┘
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.258294     │ 7.12807      │ 1            │
+│ 10    │ 0.0173255    │ 0.0907232    │ 2            │
+│ 20    │ 0.014695     │ 0.00111841   │ 4            │
+│ 30    │ 0.0146813    │ 8.57591e-05  │ 0.03125      │
+│ 40    │ 0.0146812    │ 1.08689e-06  │ 0.000976562  │
+│ 50    │ 0.0146812    │ 1.32817e-08  │ 3.8147e-06   │
+│ 52    │ 0.0146812    │ 7.88244e-09  │ 3.8147e-06   │
+└───────┴──────────────┴──────────────┴──────────────┘
+Optimiser successfully converged.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 3 secs, 450 msecs
+┌─────────────────────┐
+│OPTIMISATION COMPLETE│
+└─────────────────────┘
+Time elapsed: 0 mins, 3 secs, 830 msecs
+Saved file ../../code/strychnine/output/estimator.pkl.
+┌──────────────────────────────────────┐
+│ESTIMATING REGION: 3.0 - 2.56 ppm (F2)│
+└──────────────────────────────────────┘
+┌─────────────┐
+│MMEMP STARTED│
+└─────────────┘
+--> Computing number of oscillators...
+	Number of oscillators will be estimated using MDL on first t1 increment.
+	Number of oscillators: 14
+--> Pencil parameters: 64, 128
+--> Enhanced Block Hankel matrix constructed:
+	Size: 8192 x 8385
+	Memory: 1.0236GiB
+--> Performing Singular Value Decomposition...
+--> Checking for oscillators with negative damping...
+	None found
+┌──────────────┐
+│MMEMP COMPLETE│
+└──────────────┘
+Time elapsed: 0 mins, 7 secs, 877 msecs
+┌────────────────────┐
+│OPTIMISATION STARTED│
+└────────────────────┘
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.0146907    │ 1.61789      │ 1            │
+│ 10    │ 0.0049327    │ 0.0063071    │ 1            │
+│ 18    │ 0.00492871   │ 3.19681e-09  │ 1            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Optimiser successfully converged.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 1 secs, 630 msecs
+┌─────────────────────┐
+│OPTIMISATION COMPLETE│
+└─────────────────────┘
+Time elapsed: 0 mins, 2 secs, 93 msecs
+Saved file ../../code/strychnine/output/estimator.pkl.
+┌───────────────────────────────────────┐
+│ESTIMATING REGION: 2.45 - 2.25 ppm (F2)│
+└───────────────────────────────────────┘
+┌─────────────┐
+│MMEMP STARTED│
+└─────────────┘
+--> Computing number of oscillators...
+	Number of oscillators will be estimated using MDL on first t1 increment.
+	Number of oscillators: 11
+--> Pencil parameters: 64, 91
+--> Enhanced Block Hankel matrix constructed:
+	Size: 5824 x 5915
+	Memory: 0.5133GiB
+--> Performing Singular Value Decomposition...
+--> Checking for oscillators with negative damping...
+	None found
+┌──────────────┐
+│MMEMP COMPLETE│
+└──────────────┘
+Time elapsed: 0 mins, 5 secs, 701 msecs
+┌────────────────────┐
+│OPTIMISATION STARTED│
+└────────────────────┘
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.216265     │ 0.32678      │ 1            │
+│ 10    │ 0.0861289    │ 0.381719     │ 0.5          │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 285 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 10
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.0212737    │ 0.372375     │ 1            │
+│ 10    │ 0.00570412   │ 0.00967136   │ 1            │
+│ 20    │ 0.00566304   │ 0.000192742  │ 1            │
+│ 30    │ 0.00566301   │ 5.54453e-08  │ 1            │
+│ 33    │ 0.00566301   │ 8.38897e-09  │ 1            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Optimiser successfully converged.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 905 msecs
+┌─────────────────────┐
+│OPTIMISATION COMPLETE│
+└─────────────────────┘
+Time elapsed: 0 mins, 1 secs, 436 msecs
+Saved file ../../code/strychnine/output/estimator.pkl.
+┌──────────────────────────────────────┐
+│ESTIMATING REGION: 2.0 - 1.74 ppm (F2)│
+└──────────────────────────────────────┘
+┌─────────────┐
+│MMEMP STARTED│
+└─────────────┘
+--> Computing number of oscillators...
+	Number of oscillators will be estimated using MDL on first t1 increment.
+	Number of oscillators: 8
+--> Pencil parameters: 64, 118
+--> Enhanced Block Hankel matrix constructed:
+	Size: 7552 x 7670
+	Memory: 0.8631GiB
+--> Performing Singular Value Decomposition...
+--> Checking for oscillators with negative damping...
+	None found
+┌──────────────┐
+│MMEMP COMPLETE│
+└──────────────┘
+Time elapsed: 0 mins, 7 secs, 809 msecs
+┌────────────────────┐
+│OPTIMISATION STARTED│
+└────────────────────┘
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.23176      │ 0.929932     │ 1            │
+│ 10    │ 0.0040134    │ 0.0359422    │ 2            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 262 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 7
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.00368555   │ 0.0403804    │ 1            │
+│ 10    │ 0.00142248   │ 0.0246697    │ 2            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 243 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 6
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.00165199   │ 0.455965     │ 1            │
+│ 10    │ 0.00147237   │ 2.42248e-07  │ 1            │
+│ 12    │ 0.00147237   │ 8.48131e-09  │ 1            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Optimiser successfully converged.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 240 msecs
+┌─────────────────────┐
+│OPTIMISATION COMPLETE│
+└─────────────────────┘
+Time elapsed: 0 mins, 0 secs, 966 msecs
+Saved file ../../code/strychnine/output/estimator.pkl.
+┌───────────────────────────────────────┐
+│ESTIMATING REGION: 1.55 - 1.35 ppm (F2)│
+└───────────────────────────────────────┘
+┌─────────────┐
+│MMEMP STARTED│
+└─────────────┘
+--> Computing number of oscillators...
+	Number of oscillators will be estimated using MDL on first t1 increment.
+	Number of oscillators: 10
+--> Pencil parameters: 64, 91
+--> Enhanced Block Hankel matrix constructed:
+	Size: 5824 x 5915
+	Memory: 0.5133GiB
+--> Performing Singular Value Decomposition...
+--> Checking for oscillators with negative damping...
+	None found
+┌──────────────┐
+│MMEMP COMPLETE│
+└──────────────┘
+Time elapsed: 0 mins, 5 secs, 727 msecs
+┌────────────────────┐
+│OPTIMISATION STARTED│
+└────────────────────┘
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.214286     │ 0.253853     │ 1            │
+│ 10    │ 0.0351       │ 2.57941      │ 2            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 222 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 9
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.029548     │ 1.40678      │ 1            │
+│ 10    │ 0.0076501    │ 0.00191965   │ 1            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 202 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 8
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.00794458   │ 0.0296343    │ 1            │
+│ 6     │ 0.00794284   │ 1.08245e-09  │ 1            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Optimiser successfully converged.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 132 msecs
+┌─────────────────────┐
+│OPTIMISATION COMPLETE│
+└─────────────────────┘
+Time elapsed: 0 mins, 0 secs, 771 msecs
+Saved file ../../code/strychnine/output/estimator.pkl.
+┌──────────────────────────────────────┐
+│ESTIMATING REGION: 1.35 - 1.2 ppm (F2)│
+└──────────────────────────────────────┘
+┌─────────────┐
+│MMEMP STARTED│
+└─────────────┘
+--> Computing number of oscillators...
+	Number of oscillators will be estimated using MDL on first t1 increment.
+	Number of oscillators: 8
+--> Pencil parameters: 64, 68
+--> Enhanced Block Hankel matrix constructed:
+	Size: 4352 x 4485
+	Memory: 0.2909GiB
+--> Performing Singular Value Decomposition...
+--> Checking for oscillators with negative damping...
+	None found
+┌──────────────┐
+│MMEMP COMPLETE│
+└──────────────┘
+Time elapsed: 0 mins, 5 secs, 355 msecs
+┌────────────────────┐
+│OPTIMISATION STARTED│
+└────────────────────┘
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.216934     │ 0.270734     │ 1            │
+│ 10    │ 0.00315441   │ 0.000232276  │ 2            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 177 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 6
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.00433149   │ 0.177896     │ 1            │
+│ 6     │ 0.00421448   │ 4.79016e-09  │ 1            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Optimiser successfully converged.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 76 msecs
+┌─────────────────────┐
+│OPTIMISATION COMPLETE│
+└─────────────────────┘
+Time elapsed: 0 mins, 0 secs, 430 msecs
+Saved file ../../code/strychnine/output/estimator.pkl.
+
