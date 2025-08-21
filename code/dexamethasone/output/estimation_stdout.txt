@@ -5,8 +5,8 @@
 │MMEMP STARTED│
 └─────────────┘
 --> Computing number of oscillators...
-	Number of oscillators has been pre-defined
-	Number of oscillators: 2
+	Number of oscillators will be estimated using MDL on first t1 increment.
+	Number of oscillators: 8
 --> Pencil parameters: 32, 56
 --> Enhanced Block Hankel matrix constructed:
 	Size: 1792 x 1848
@@ -17,7 +17,7 @@
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 2 secs, 123 msecs
+Time elapsed: 0 mins, 4 secs, 239 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -27,19 +27,56 @@ Time elapsed: 0 mins, 2 secs, 123 msecs
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.226561     │ 16.5374      │ 1            │
-│ 10    │ 0.0420697    │ 0.000327626  │ 1            │
-│ 15    │ 0.0420694    │ 6.96726e-09  │ 1            │
+│ 0     │ 1.19593      │ 5.44025      │ 1            │
+│ 10    │ 0.415704     │ 1.0081       │ 0.5          │
+│ 20    │ 0.0817712    │ 0.543032     │ 1            │
+│ 25    │ 0.028249     │ 0.561549     │ 0.5          │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 145 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 4
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 14.1708      │ 96.9308      │ 1            │
+│ 10    │ 0.0106378    │ 0.570735     │ 2            │
+│ 20    │ 0.00934375   │ 0.0103699    │ 4            │
+│ 25    │ 0.00931819   │ 0.00355099   │ 4            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 81 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 2
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.00962816   │ 0.0645367    │ 1            │
+│ 7     │ 0.00961351   │ 5.57479e-09  │ 1            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 0 secs, 536 msecs
+Time elapsed: 0 mins, 0 secs, 19 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 0 secs, 826 msecs
+Time elapsed: 0 mins, 0 secs, 346 msecs
 Saved file ../../code/dexamethasone/output/estimator.pkl.
 ┌─────────────────────────────────────┐
 │ESTIMATING REGION: 6.4 - 5.9 ppm (F2)│
@@ -49,7 +86,7 @@ Saved file ../../code/dexamethasone/output/estimator.pkl.
 └─────────────┘
 --> Computing number of oscillators...
 	Number of oscillators will be estimated using MDL on first t1 increment.
-	Number of oscillators: 10
+	Number of oscillators: 15
 --> Pencil parameters: 32, 93
 --> Enhanced Block Hankel matrix constructed:
 	Size: 2976 x 3069
@@ -60,7 +97,7 @@ Saved file ../../code/dexamethasone/output/estimator.pkl.
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 4 secs, 957 msecs
+Time elapsed: 0 mins, 7 secs, 309 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -70,40 +107,56 @@ Time elapsed: 0 mins, 4 secs, 957 msecs
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.731703     │ 21.6027      │ 1            │
-│ 10    │ 0.368441     │ 28.4936      │ 2            │
-│ 20    │ 0.161892     │ 0.942236     │ 2            │
-│ 25    │ 0.127898     │ 0.444633     │ 2            │
+│ 0     │ 0.758673     │ 0.612187     │ 1            │
+│ 10    │ 0.240373     │ 0.281326     │ 4            │
+│ 20    │ 0.0969254    │ 0.140443     │ 0.5          │
+│ 25    │ 0.0615276    │ 0.626204     │ 0.5          │
 └───────┴──────────────┴──────────────┴──────────────┘
 Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 3 secs, 370 msecs
+Time elapsed: 0 mins, 0 secs, 500 msecs
 Negative amplitudes detected.
 These oscillators will be removed
-Updated number of oscillators: 7
+Updated number of oscillators: 8
 ┌───────────────────────────┐
 │TRUST NCG ALGORITHM STARTED│
 └───────────────────────────┘
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.0804244    │ 4.27358      │ 1            │
-│ 10    │ 0.0585771    │ 0.0986333    │ 1            │
-│ 20    │ 0.0537295    │ 0.0447903    │ 2            │
-│ 30    │ 0.0536985    │ 3.98406e-07  │ 2            │
-│ 34    │ 0.0536985    │ 3.7146e-09   │ 2            │
+│ 0     │ 0.349137     │ 13.8934      │ 1            │
+│ 10    │ 0.00832682   │ 0.0986498    │ 2            │
+│ 20    │ 0.00623937   │ 0.000336451  │ 1            │
+│ 30    │ 0.00623307   │ 0.0270451    │ 1            │
+│ 40    │ 0.00622493   │ 0.0159023    │ 1            │
+│ 50    │ 0.00622092   │ 7.20592e-05  │ 0.25         │
+│ 60    │ 0.00621378   │ 8.55059e-05  │ 0.25         │
+│ 70    │ 0.00620765   │ 0.00328332   │ 0.25         │
+│ 80    │ 0.00620068   │ 0.000117233  │ 1            │
+│ 90    │ 0.00619505   │ 4.57011e-05  │ 0.25         │
+│ 100   │ 0.00618836   │ 0.000819561  │ 0.5          │
+│ 110   │ 0.0061825    │ 0.000162854  │ 0.5          │
+│ 120   │ 0.00617574   │ 0.000173916  │ 1            │
+│ 130   │ 0.00615752   │ 0.000946773  │ 2            │
+│ 140   │ 0.00614979   │ 0.0294605    │ 4            │
+│ 150   │ 0.00614708   │ 0.00687771   │ 0.5          │
+│ 160   │ 0.00614571   │ 0.000211022  │ 0.25         │
+│ 170   │ 0.0061446    │ 0.000313761  │ 0.5          │
+│ 180   │ 0.00614387   │ 0.00374205   │ 0.25         │
+│ 190   │ 0.00614337   │ 6.36513e-05  │ 0.25         │
+│ 200   │ 0.00614314   │ 9.01406e-06  │ 0.125        │
 └───────┴──────────────┴──────────────┴──────────────┘
-Optimiser successfully converged.
+Maximum allowed iterations reached.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 3 secs, 514 msecs
+Time elapsed: 0 mins, 2 secs, 48 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 7 secs, 445 msecs
+Time elapsed: 0 mins, 2 secs, 691 msecs
 Saved file ../../code/dexamethasone/output/estimator.pkl.
 ┌─────────────────────────────────────┐
 │ESTIMATING REGION: 5.5 - 4.8 ppm (F2)│
@@ -112,19 +165,21 @@ Saved file ../../code/dexamethasone/output/estimator.pkl.
 │MMEMP STARTED│
 └─────────────┘
 --> Computing number of oscillators...
-	Number of oscillators has been pre-defined
-	Number of oscillators: 3
+	Number of oscillators will be estimated using MDL on first t1 increment.
+	Number of oscillators: 20
 --> Pencil parameters: 32, 128
 --> Enhanced Block Hankel matrix constructed:
 	Size: 4096 x 4257
 	Memory: 0.2598GiB
 --> Performing Singular Value Decomposition...
 --> Checking for oscillators with negative damping...
-	None found
+	WARNING: Oscillations with negative damping
+	factors detected. These have been deleted.
+	Corrected number of oscillations: 19
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 2 secs, 951 msecs
+Time elapsed: 0 mins, 9 secs, 340 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -134,9 +189,75 @@ Time elapsed: 0 mins, 2 secs, 951 msecs
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.220318     │ 22.1598      │ 1            │
-│ 10    │ 0.0137869    │ 0.144956     │ 1            │
-│ 20    │ 0.0136856    │ 3.90495e-09  │ 1            │
+│ 0     │ 3.9799       │ 103.082      │ 1            │
+│ 10    │ 0.689723     │ 0.59606      │ 1            │
+│ 20    │ 0.385929     │ 4.27263      │ 2            │
+│ 25    │ 0.331143     │ 0.313828     │ 2            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 889 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 11
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 1.32904      │ 16.5094      │ 1            │
+│ 10    │ 0.546942     │ 1.6316       │ 0.5          │
+│ 20    │ 0.143256     │ 1.16903      │ 2            │
+│ 25    │ 0.0360859    │ 2.18631      │ 2            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 481 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 8
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.0417199    │ 1.85058      │ 1            │
+│ 10    │ 0.00403312   │ 0.0151256    │ 1            │
+│ 20    │ 0.00340519   │ 0.0570474    │ 0.5          │
+│ 25    │ 0.0033978    │ 9.90356e-05  │ 1            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 326 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 6
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.00342499   │ 0.0174387    │ 1            │
+│ 10    │ 0.00341932   │ 0.00048773   │ 0.5          │
+│ 20    │ 0.00340411   │ 0.00250879   │ 0.125        │
+│ 30    │ 0.00337949   │ 0.00934354   │ 0.25         │
+│ 40    │ 0.00336113   │ 0.00152716   │ 0.25         │
+│ 50    │ 0.00335606   │ 0.000679665  │ 0.5          │
+│ 60    │ 0.00335336   │ 0.0109338    │ 0.5          │
+│ 70    │ 0.00335264   │ 1.62923e-05  │ 0.125        │
+│ 80    │ 0.0033526    │ 1.54435e-06  │ 0.03125      │
+│ 90    │ 0.0033526    │ 1.11316e-05  │ 0.00390625   │
+│ 100   │ 0.0033526    │ 1.91524e-07  │ 0.00195312   │
+│ 110   │ 0.0033526    │ 8.82912e-09  │ 0.000244141  │
 └───────┴──────────────┴──────────────┴──────────────┘
 Optimiser successfully converged.
 ┌────────────────────────────┐
@@ -146,7 +267,7 @@ Time elapsed: 0 mins, 1 secs, 169 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 1 secs, 520 msecs
+Time elapsed: 0 mins, 3 secs, 7 msecs
 Saved file ../../code/dexamethasone/output/estimator.pkl.
 ┌─────────────────────────────────────┐
 │ESTIMATING REGION: 4.8 - 4.3 ppm (F2)│
@@ -167,7 +288,7 @@ Saved file ../../code/dexamethasone/output/estimator.pkl.
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 4 secs, 530 msecs
+Time elapsed: 0 mins, 4 secs, 586 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -177,16 +298,16 @@ Time elapsed: 0 mins, 4 secs, 530 msecs
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.490858     │ 6.47437      │ 1            │
-│ 10    │ 0.322812     │ 13.6186      │ 2            │
-│ 20    │ 0.0926058    │ 0.613865     │ 2            │
-│ 25    │ 0.0413874    │ 0.190248     │ 2            │
+│ 0     │ 0.386184     │ 0.404221     │ 1            │
+│ 10    │ 0.251022     │ 0.239896     │ 2            │
+│ 20    │ 0.0328036    │ 1.11517      │ 2            │
+│ 25    │ 0.0115722    │ 0.0885637    │ 2            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 4 secs, 56 msecs
+Time elapsed: 0 mins, 0 secs, 346 msecs
 Negative amplitudes detected.
 These oscillators will be removed
 Updated number of oscillators: 9
@@ -196,20 +317,20 @@ Updated number of oscillators: 9
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.0417688    │ 0.440232     │ 1            │
-│ 10    │ 0.0370068    │ 0.122191     │ 1            │
-│ 20    │ 0.0369767    │ 0.00136796   │ 2            │
-│ 29    │ 0.0369767    │ 9.08457e-09  │ 2            │
+│ 0     │ 0.012431     │ 0.0870107    │ 1            │
+│ 10    │ 0.00929577   │ 0.0339638    │ 1            │
+│ 20    │ 0.00923566   │ 0.00699808   │ 2            │
+│ 27    │ 0.00923547   │ 8.04678e-09  │ 2            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 3 secs, 893 msecs
+Time elapsed: 0 mins, 0 secs, 362 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 8 secs, 614 msecs
+Time elapsed: 0 mins, 0 secs, 862 msecs
 Saved file ../../code/dexamethasone/output/estimator.pkl.
 ┌───────────────────────────────────────┐
 │ESTIMATING REGION: 4.25 - 3.97 ppm (F2)│
@@ -219,7 +340,7 @@ Saved file ../../code/dexamethasone/output/estimator.pkl.
 └─────────────┘
 --> Computing number of oscillators...
 	Number of oscillators has been pre-defined
-	Number of oscillators: 20
+	Number of oscillators: 22
 --> Pencil parameters: 32, 52
 --> Enhanced Block Hankel matrix constructed:
 	Size: 1664 x 1749
@@ -228,11 +349,11 @@ Saved file ../../code/dexamethasone/output/estimator.pkl.
 --> Checking for oscillators with negative damping...
 	WARNING: Oscillations with negative damping
 	factors detected. These have been deleted.
-	Corrected number of oscillations: 19
+	Corrected number of oscillations: 20
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 4 secs, 676 msecs
+Time elapsed: 0 mins, 5 secs, 447 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -242,47 +363,39 @@ Time elapsed: 0 mins, 4 secs, 676 msecs
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.641424     │ 32.4549      │ 1            │
-│ 10    │ 0.427963     │ 0.620994     │ 2            │
-│ 20    │ 0.263535     │ 0.673885     │ 4            │
-│ 25    │ 0.185473     │ 0.844896     │ 1            │
+│ 0     │ 0.218519     │ 0.292299     │ 1            │
+│ 10    │ 0.11567      │ 0.0541653    │ 1            │
+│ 20    │ 0.0678154    │ 0.895817     │ 2            │
+│ 25    │ 0.0164797    │ 0.187526     │ 2            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 7 secs, 737 msecs
+Time elapsed: 0 mins, 0 secs, 443 msecs
 Negative amplitudes detected.
 These oscillators will be removed
-Updated number of oscillators: 17
+Updated number of oscillators: 18
 ┌───────────────────────────┐
 │TRUST NCG ALGORITHM STARTED│
 └───────────────────────────┘
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.170214     │ 0.895566     │ 1            │
-│ 10    │ 0.0771541    │ 0.184304     │ 1            │
-│ 20    │ 0.0718046    │ 0.00743768   │ 2            │
-│ 30    │ 0.0688261    │ 0.00231503   │ 4            │
-│ 40    │ 0.0673112    │ 0.109383     │ 4            │
-│ 50    │ 0.0668337    │ 0.000970734  │ 4            │
-│ 60    │ 0.0664969    │ 0.000719118  │ 4            │
-│ 70    │ 0.066298     │ 0.280532     │ 4            │
-│ 80    │ 0.0662774    │ 0.00238078   │ 4            │
-│ 90    │ 0.0662772    │ 4.99907e-06  │ 0.25         │
-│ 100   │ 0.0662772    │ 1.96563e-06  │ 6.10352e-05  │
-│ 106   │ 0.0662772    │ 5.40421e-09  │ 1.52588e-05  │
+│ 0     │ 0.0138704    │ 0.158247     │ 1            │
+│ 10    │ 0.0116893    │ 0.00494981   │ 4            │
+│ 20    │ 0.0116888    │ 1.19855e-08  │ 4            │
+│ 21    │ 0.0116888    │ 5.72453e-09  │ 4            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 25 secs, 710 msecs
+Time elapsed: 0 mins, 0 secs, 518 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 34 secs, 541 msecs
+Time elapsed: 0 mins, 1 secs, 113 msecs
 Saved file ../../code/dexamethasone/output/estimator.pkl.
 ┌──────────────────────────────────────┐
 │ESTIMATING REGION: 3.0 - 2.87 ppm (F2)│
@@ -305,7 +418,7 @@ Saved file ../../code/dexamethasone/output/estimator.pkl.
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 3 secs, 273 msecs
+Time elapsed: 0 mins, 4 secs, 28 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -315,44 +428,42 @@ Time elapsed: 0 mins, 3 secs, 273 msecs
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.415915     │ 3.23536      │ 1            │
-│ 10    │ 0.390359     │ 0.137223     │ 2            │
-│ 20    │ 0.389511     │ 0.0101615    │ 4            │
-│ 30    │ 0.389466     │ 3.51696e-08  │ 4            │
-│ 31    │ 0.389466     │ 2.27856e-09  │ 4            │
+│ 0     │ 0.0609101    │ 0.345082     │ 1            │
+│ 10    │ 0.0445182    │ 0.000863367  │ 4            │
+│ 18    │ 0.0444778    │ 5.44089e-09  │ 4            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 4 secs, 965 msecs
+Time elapsed: 0 mins, 0 secs, 126 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 5 secs, 709 msecs
+Time elapsed: 0 mins, 0 secs, 233 msecs
 Saved file ../../code/dexamethasone/output/estimator.pkl.
-┌───────────────────────────────────────┐
-│ESTIMATING REGION: 2.68 - 2.43 ppm (F2)│
-└───────────────────────────────────────┘
+┌────────────────────────────────────────┐
+│ESTIMATING REGION: 2.68 - 2.565 ppm (F2)│
+└────────────────────────────────────────┘
 ┌─────────────┐
 │MMEMP STARTED│
 └─────────────┘
 --> Computing number of oscillators...
 	Number of oscillators will be estimated using MDL on first t1 increment.
-	Number of oscillators: 19
---> Pencil parameters: 32, 47
+	Number of oscillators: 13
+--> Pencil parameters: 32, 22
 --> Enhanced Block Hankel matrix constructed:
-	Size: 1504 x 1551
-	Memory: 35.5942MiB
+	Size: 704 x 726
+	Memory: 7.7988MiB
 --> Performing Singular Value Decomposition...
 --> Checking for oscillators with negative damping...
 	WARNING: Oscillations with negative damping
 	factors detected. These have been deleted.
-	Corrected number of oscillations: 16
+	Corrected number of oscillations: 12
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 4 secs, 766 msecs
+Time elapsed: 0 mins, 3 secs, 235 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -362,16 +473,108 @@ Time elapsed: 0 mins, 4 secs, 766 msecs
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.293308     │ 9.36683      │ 1            │
-│ 10    │ 0.225198     │ 0.1235       │ 2            │
-│ 20    │ 0.0999962    │ 1.13434      │ 2            │
-│ 25    │ 0.0860333    │ 0.0500352    │ 2            │
+│ 0     │ 0.0281752    │ 0.198331     │ 1            │
+│ 10    │ 0.0175193    │ 0.0015979    │ 2            │
+│ 20    │ 0.0174395    │ 0.0118098    │ 2            │
+│ 30    │ 0.0173479    │ 0.000212411  │ 2            │
+│ 40    │ 0.0173477    │ 2.22478e-06  │ 0.00195312   │
+│ 50    │ 0.0173477    │ 2.68939e-08  │ 3.05176e-05  │
+│ 52    │ 0.0173477    │ 8.07527e-09  │ 3.05176e-05  │
+└───────┴──────────────┴──────────────┴──────────────┘
+Optimiser successfully converged.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 368 msecs
+┌─────────────────────┐
+│OPTIMISATION COMPLETE│
+└─────────────────────┘
+Time elapsed: 0 mins, 0 secs, 474 msecs
+Saved file ../../code/dexamethasone/output/estimator.pkl.
+┌────────────────────────────────────────┐
+│ESTIMATING REGION: 2.413 - 2.26 ppm (F2)│
+└────────────────────────────────────────┘
+┌─────────────┐
+│MMEMP STARTED│
+└─────────────┘
+--> Computing number of oscillators...
+	Number of oscillators will be estimated using MDL on first t1 increment.
+	Number of oscillators: 17
+--> Pencil parameters: 32, 29
+--> Enhanced Block Hankel matrix constructed:
+	Size: 928 x 957
+	Memory: 13.5513MiB
+--> Performing Singular Value Decomposition...
+--> Checking for oscillators with negative damping...
+	None found
+┌──────────────┐
+│MMEMP COMPLETE│
+└──────────────┘
+Time elapsed: 0 mins, 3 secs, 872 msecs
+┌────────────────────┐
+│OPTIMISATION STARTED│
+└────────────────────┘
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.0518744    │ 0.575901     │ 1            │
+│ 10    │ 0.00636797   │ 0.00261349   │ 4            │
+│ 20    │ 0.00632893   │ 8.82087e-06  │ 0.125        │
+│ 30    │ 0.00632892   │ 5.41845e-07  │ 0.000976562  │
+│ 35    │ 0.00632892   │ 2.62371e-09  │ 0.000488281  │
+└───────┴──────────────┴──────────────┴──────────────┘
+Optimiser successfully converged.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 501 msecs
+┌─────────────────────┐
+│OPTIMISATION COMPLETE│
+└─────────────────────┘
+Time elapsed: 0 mins, 0 secs, 629 msecs
+Saved file ../../code/dexamethasone/output/estimator.pkl.
+┌──────────────────────────────────────┐
+│ESTIMATING REGION: 2.2 - 2.03 ppm (F2)│
+└──────────────────────────────────────┘
+┌─────────────┐
+│MMEMP STARTED│
+└─────────────┘
+--> Computing number of oscillators...
+	Number of oscillators will be estimated using MDL on first t1 increment.
+	Number of oscillators: 16
+--> Pencil parameters: 32, 32
+--> Enhanced Block Hankel matrix constructed:
+	Size: 1024 x 1056
+	Memory: 16.5MiB
+--> Performing Singular Value Decomposition...
+--> Checking for oscillators with negative damping...
+	None found
+┌──────────────┐
+│MMEMP COMPLETE│
+└──────────────┘
+Time elapsed: 0 mins, 4 secs, 849 msecs
+┌────────────────────┐
+│OPTIMISATION STARTED│
+└────────────────────┘
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.216909     │ 3.07951      │ 1            │
+│ 10    │ 0.0168898    │ 0.0201314    │ 2            │
+│ 20    │ 0.00953998   │ 0.00646784   │ 2            │
+│ 25    │ 0.00804138   │ 0.0171967    │ 4            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 5 secs, 760 msecs
+Time elapsed: 0 mins, 0 secs, 307 msecs
 Negative amplitudes detected.
 These oscillators will be removed
 Updated number of oscillators: 15
@@ -381,149 +584,22 @@ Updated number of oscillators: 15
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.0862516    │ 1.37968      │ 1            │
-│ 10    │ 0.0763427    │ 0.0335896    │ 2            │
-│ 20    │ 0.0736618    │ 0.00401192   │ 2            │
-│ 30    │ 0.0716216    │ 0.167743     │ 1            │
-│ 40    │ 0.0707468    │ 0.053942     │ 4            │
-│ 50    │ 0.0705361    │ 0.259463     │ 4            │
-│ 60    │ 0.0704352    │ 0.0968256    │ 2            │
-│ 70    │ 0.0704088    │ 0.165953     │ 1            │
-│ 80    │ 0.0704056    │ 0.000125549  │ 0.5          │
-│ 90    │ 0.0704044    │ 0.011049     │ 0.0625       │
-│ 100   │ 0.0704043    │ 8.2181e-06   │ 0.0625       │
-│ 110   │ 0.0704042    │ 2.24225e-06  │ 0.015625     │
-│ 120   │ 0.0704042    │ 6.37141e-07  │ 0.000976562  │
-│ 130   │ 0.0704042    │ 1.34674e-08  │ 0.000244141  │
-│ 138   │ 0.0704042    │ 3.76073e-09  │ 6.10352e-05  │
+│ 0     │ 0.00887546   │ 0.251459     │ 1            │
+│ 10    │ 0.00736859   │ 0.000360364  │ 4            │
+│ 20    │ 0.00734088   │ 1.00183e-05  │ 4            │
+│ 30    │ 0.00734085   │ 6.73913e-07  │ 0.00390625   │
+│ 40    │ 0.00734085   │ 1.22223e-08  │ 0.000976562  │
+│ 42    │ 0.00734085   │ 6.87707e-09  │ 0.000976562  │
 └───────┴──────────────┴──────────────┴──────────────┘
 Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 28 secs, 914 msecs
+Time elapsed: 0 mins, 0 secs, 968 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 35 secs, 592 msecs
-Saved file ../../code/dexamethasone/output/estimator.pkl.
-┌───────────────────────────────────────┐
-│ESTIMATING REGION: 2.44 - 2.26 ppm (F2)│
-└───────────────────────────────────────┘
-┌─────────────┐
-│MMEMP STARTED│
-└─────────────┘
---> Computing number of oscillators...
-	Number of oscillators will be estimated using MDL on first t1 increment.
-	Number of oscillators: 18
---> Pencil parameters: 32, 34
---> Enhanced Block Hankel matrix constructed:
-	Size: 1088 x 1122
-	Memory: 18.627MiB
---> Performing Singular Value Decomposition...
---> Checking for oscillators with negative damping...
-	None found
-┌──────────────┐
-│MMEMP COMPLETE│
-└──────────────┘
-Time elapsed: 0 mins, 6 secs, 745 msecs
-┌────────────────────┐
-│OPTIMISATION STARTED│
-└────────────────────┘
-┌───────────────────────────┐
-│TRUST NCG ALGORITHM STARTED│
-└───────────────────────────┘
-┌───────┬──────────────┬──────────────┬──────────────┐
-│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
-├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.284507     │ 6.48082      │ 1            │
-│ 10    │ 0.183894     │ 0.277405     │ 2            │
-│ 20    │ 0.168323     │ 0.00619033   │ 2            │
-│ 25    │ 0.167102     │ 0.0682203    │ 4            │
-└───────┴──────────────┴──────────────┴──────────────┘
-Negative amplitude(s) detected.
-┌────────────────────────────┐
-│TRUST NCG ALGORITHM COMPLETE│
-└────────────────────────────┘
-Time elapsed: 0 mins, 7 secs, 65 msecs
-Negative amplitudes detected.
-These oscillators will be removed
-Updated number of oscillators: 17
-┌───────────────────────────┐
-│TRUST NCG ALGORITHM STARTED│
-└───────────────────────────┘
-┌───────┬──────────────┬──────────────┬──────────────┐
-│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
-├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.167455     │ 0.763201     │ 1            │
-│ 10    │ 0.167228     │ 0.00624471   │ 4            │
-│ 20    │ 0.167218     │ 0.000172005  │ 0.5          │
-│ 30    │ 0.167218     │ 0.000340689  │ 0.015625     │
-│ 40    │ 0.167218     │ 8.81896e-06  │ 0.00390625   │
-│ 50    │ 0.167218     │ 1.4653e-08   │ 3.05176e-05  │
-│ 55    │ 0.167218     │ 7.40224e-09  │ 3.8147e-06   │
-└───────┴──────────────┴──────────────┴──────────────┘
-Optimiser successfully converged.
-┌────────────────────────────┐
-│TRUST NCG ALGORITHM COMPLETE│
-└────────────────────────────┘
-Time elapsed: 0 mins, 13 secs, 608 msecs
-┌─────────────────────┐
-│OPTIMISATION COMPLETE│
-└─────────────────────┘
-Time elapsed: 0 mins, 21 secs, 780 msecs
-Saved file ../../code/dexamethasone/output/estimator.pkl.
-┌─────────────────────────────────────────┐
-│ESTIMATING REGION: 2.195 - 2.034 ppm (F2)│
-└─────────────────────────────────────────┘
-┌─────────────┐
-│MMEMP STARTED│
-└─────────────┘
---> Computing number of oscillators...
-	Number of oscillators will be estimated using MDL on first t1 increment.
-	Number of oscillators: 15
---> Pencil parameters: 32, 30
---> Enhanced Block Hankel matrix constructed:
-	Size: 960 x 1023
-	Memory: 14.9854MiB
---> Performing Singular Value Decomposition...
---> Checking for oscillators with negative damping...
-	None found
-┌──────────────┐
-│MMEMP COMPLETE│
-└──────────────┘
-Time elapsed: 0 mins, 4 secs, 625 msecs
-┌────────────────────┐
-│OPTIMISATION STARTED│
-└────────────────────┘
-┌───────────────────────────┐
-│TRUST NCG ALGORITHM STARTED│
-└───────────────────────────┘
-┌───────┬──────────────┬──────────────┬──────────────┐
-│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
-├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.299567     │ 18.1289      │ 1            │
-│ 10    │ 0.155866     │ 0.539935     │ 2            │
-│ 20    │ 0.146208     │ 0.227305     │ 2            │
-│ 30    │ 0.14316      │ 0.00853459   │ 2            │
-│ 40    │ 0.14059      │ 0.00780484   │ 4            │
-│ 50    │ 0.139501     │ 0.223686     │ 4            │
-│ 60    │ 0.13937      │ 0.00106331   │ 4            │
-│ 70    │ 0.139357     │ 5.26075e-05  │ 4            │
-│ 80    │ 0.139357     │ 2.01503e-06  │ 4            │
-│ 90    │ 0.139357     │ 8.28446e-06  │ 0.00195312   │
-│ 100   │ 0.139357     │ 7.5978e-07   │ 3.05176e-05  │
-│ 103   │ 0.139357     │ 8.16897e-09  │ 6.10352e-05  │
-└───────┴──────────────┴──────────────┴──────────────┘
-Optimiser successfully converged.
-┌────────────────────────────┐
-│TRUST NCG ALGORITHM COMPLETE│
-└────────────────────────────┘
-Time elapsed: 0 mins, 21 secs, 933 msecs
-┌─────────────────────┐
-│OPTIMISATION COMPLETE│
-└─────────────────────┘
-Time elapsed: 0 mins, 22 secs, 907 msecs
+Time elapsed: 0 mins, 1 secs, 400 msecs
 Saved file ../../code/dexamethasone/output/estimator.pkl.
 ┌──────────────────────────────────────┐
 │ESTIMATING REGION: 1.85 - 1.7 ppm (F2)│
@@ -546,7 +622,7 @@ Saved file ../../code/dexamethasone/output/estimator.pkl.
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 7 secs, 332 msecs
+Time elapsed: 0 mins, 6 secs, 636 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -556,16 +632,16 @@ Time elapsed: 0 mins, 7 secs, 332 msecs
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.913213     │ 3.46045      │ 1            │
-│ 10    │ 0.454942     │ 0.614188     │ 2            │
-│ 20    │ 0.407413     │ 0.0349251    │ 4            │
-│ 25    │ 0.386655     │ 0.16167      │ 4            │
+│ 0     │ 0.630319     │ 0.302913     │ 1            │
+│ 10    │ 0.205661     │ 0.100125     │ 2            │
+│ 20    │ 0.0177329    │ 0.0815136    │ 2            │
+│ 25    │ 0.0125608    │ 0.0065334    │ 4            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 4 secs, 16 msecs
+Time elapsed: 0 mins, 0 secs, 127 msecs
 Negative amplitudes detected.
 These oscillators will be removed
 Updated number of oscillators: 9
@@ -575,37 +651,19 @@ Updated number of oscillators: 9
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.389419     │ 0.940315     │ 1            │
-│ 10    │ 0.378284     │ 0.219381     │ 4            │
-│ 20    │ 0.375728     │ 0.100258     │ 4            │
-│ 30    │ 0.375347     │ 0.00264656   │ 4            │
-│ 40    │ 0.374859     │ 0.00217106   │ 1            │
-│ 50    │ 0.374753     │ 0.00164514   │ 1            │
-│ 60    │ 0.374686     │ 0.00104586   │ 0.5          │
-│ 70    │ 0.374619     │ 0.000186382  │ 0.5          │
-│ 80    │ 0.374565     │ 0.00203751   │ 0.5          │
-│ 90    │ 0.374517     │ 0.000851737  │ 0.25         │
-│ 100   │ 0.374477     │ 0.00406505   │ 0.25         │
-│ 110   │ 0.374431     │ 0.0173392    │ 0.25         │
-│ 120   │ 0.374388     │ 0.011079     │ 0.25         │
-│ 130   │ 0.374352     │ 0.000524565  │ 0.25         │
-│ 140   │ 0.374315     │ 0.000614444  │ 0.25         │
-│ 150   │ 0.374268     │ 0.000869296  │ 0.25         │
-│ 160   │ 0.374224     │ 0.00107991   │ 0.25         │
-│ 170   │ 0.374177     │ 0.000640382  │ 0.25         │
-│ 180   │ 0.374127     │ 0.0113126    │ 0.125        │
-│ 190   │ 0.374076     │ 0.014294     │ 0.125        │
-│ 200   │ 0.374027     │ 0.00537373   │ 0.125        │
+│ 0     │ 0.0128023    │ 0.0540698    │ 1            │
+│ 10    │ 0.0122853    │ 6.63288e-06  │ 4            │
+│ 19    │ 0.0122853    │ 6.03758e-09  │ 4            │
 └───────┴──────────────┴──────────────┴──────────────┘
-Maximum allowed iterations reached.
+Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 24 secs, 734 msecs
+Time elapsed: 0 mins, 0 secs, 126 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 29 secs, 408 msecs
+Time elapsed: 0 mins, 0 secs, 366 msecs
 Saved file ../../code/dexamethasone/output/estimator.pkl.
 ┌──────────────────────────────────────┐
 │ESTIMATING REGION: 1.7 - 1.25 ppm (F2)│
@@ -615,7 +673,7 @@ Saved file ../../code/dexamethasone/output/estimator.pkl.
 └─────────────┘
 --> Computing number of oscillators...
 	Number of oscillators will be estimated using MDL on first t1 increment.
-	Number of oscillators: 28
+	Number of oscillators: 29
 --> Pencil parameters: 32, 84
 --> Enhanced Block Hankel matrix constructed:
 	Size: 2688 x 2772
@@ -626,7 +684,7 @@ Saved file ../../code/dexamethasone/output/estimator.pkl.
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 7 secs, 412 msecs
+Time elapsed: 0 mins, 8 secs, 153 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -636,75 +694,75 @@ Time elapsed: 0 mins, 7 secs, 412 msecs
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.285027     │ 18.4138      │ 1            │
-│ 10    │ 0.182657     │ 0.851014     │ 2            │
-│ 20    │ 0.0344041    │ 2.66935      │ 2            │
-│ 25    │ 0.0144875    │ 1.83611      │ 2            │
+│ 0     │ 0.27687      │ 3.3803       │ 1            │
+│ 10    │ 0.0670184    │ 0.443105     │ 4            │
+│ 20    │ 0.0083479    │ 0.274609     │ 2            │
+│ 25    │ 0.00188893   │ 0.0236266    │ 0.5          │
 └───────┴──────────────┴──────────────┴──────────────┘
 Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 11 secs, 506 msecs
+Time elapsed: 0 mins, 1 secs, 6 msecs
 Negative amplitudes detected.
 These oscillators will be removed
-Updated number of oscillators: 24
+Updated number of oscillators: 26
 ┌───────────────────────────┐
 │TRUST NCG ALGORITHM STARTED│
 └───────────────────────────┘
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.0155491    │ 2.76775      │ 1            │
-│ 10    │ 0.00347847   │ 0.0161257    │ 1            │
-│ 20    │ 0.00266223   │ 0.0247982    │ 2            │
-│ 25    │ 0.00260256   │ 0.470675     │ 4            │
+│ 0     │ 0.00183967   │ 0.107169     │ 1            │
+│ 10    │ 0.000725065  │ 0.0161603    │ 1            │
+│ 20    │ 0.000599785  │ 0.0170453    │ 1            │
+│ 25    │ 0.000588914  │ 0.000132532  │ 0.5          │
 └───────┴──────────────┴──────────────┴──────────────┘
 Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 9 secs, 480 msecs
+Time elapsed: 0 mins, 0 secs, 874 msecs
 Negative amplitudes detected.
 These oscillators will be removed
-Updated number of oscillators: 23
+Updated number of oscillators: 25
 ┌───────────────────────────┐
 │TRUST NCG ALGORITHM STARTED│
 └───────────────────────────┘
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.00263062   │ 0.321937     │ 1            │
-│ 10    │ 0.0025955    │ 0.000383235  │ 2            │
-│ 20    │ 0.0025823    │ 0.00015563   │ 0.25         │
-│ 30    │ 0.00257596   │ 0.00953431   │ 0.25         │
-│ 40    │ 0.00257352   │ 0.0211622    │ 0.25         │
-│ 50    │ 0.00257134   │ 0.00151866   │ 0.25         │
-│ 60    │ 0.00256927   │ 7.45405e-05  │ 0.25         │
-│ 70    │ 0.00256732   │ 0.0155461    │ 0.125        │
-│ 80    │ 0.0025665    │ 0.00100133   │ 0.25         │
-│ 90    │ 0.00256514   │ 0.0212054    │ 0.5          │
-│ 100   │ 0.00256437   │ 0.000134088  │ 0.5          │
-│ 110   │ 0.00256382   │ 3.50532e-05  │ 0.125        │
-│ 120   │ 0.00256339   │ 0.0262764    │ 0.125        │
-│ 130   │ 0.00256308   │ 0.00203079   │ 0.0625       │
-│ 140   │ 0.00256264   │ 0.00392269   │ 0.5          │
-│ 150   │ 0.00256243   │ 2.73803e-05  │ 0.03125      │
-│ 160   │ 0.00256234   │ 2.10629e-05  │ 0.03125      │
-│ 170   │ 0.00256225   │ 0.000162828  │ 0.03125      │
-│ 180   │ 0.00256216   │ 0.000155808  │ 0.03125      │
-│ 190   │ 0.00256201   │ 2.09324e-05  │ 0.03125      │
-│ 200   │ 0.0025619    │ 5.22478e-05  │ 0.0625       │
+│ 0     │ 0.000591284  │ 0.00982326   │ 1            │
+│ 10    │ 0.000581324  │ 0.000242053  │ 0.125        │
+│ 20    │ 0.000570321  │ 0.000409547  │ 0.5          │
+│ 30    │ 0.000557983  │ 0.000786488  │ 1            │
+│ 40    │ 0.000547274  │ 0.000180676  │ 2            │
+│ 50    │ 0.000543063  │ 0.000172999  │ 0.0625       │
+│ 60    │ 0.000542485  │ 0.000333664  │ 1            │
+│ 70    │ 0.000542396  │ 5.83881e-06  │ 0.03125      │
+│ 80    │ 0.000542381  │ 4.75437e-05  │ 0.0625       │
+│ 90    │ 0.000542364  │ 0.000111653  │ 0.015625     │
+│ 100   │ 0.000542356  │ 1.04571e-06  │ 0.015625     │
+│ 110   │ 0.000542347  │ 0.000134629  │ 0.015625     │
+│ 120   │ 0.000542341  │ 0.000132199  │ 0.015625     │
+│ 130   │ 0.000542335  │ 0.000139767  │ 0.015625     │
+│ 140   │ 0.000542331  │ 0.000174107  │ 0.015625     │
+│ 150   │ 0.000542326  │ 0.000173324  │ 0.015625     │
+│ 160   │ 0.000542322  │ 0.00017241   │ 0.015625     │
+│ 170   │ 0.000542318  │ 0.000182648  │ 0.015625     │
+│ 180   │ 0.000542314  │ 0.0001874    │ 0.015625     │
+│ 190   │ 0.000542309  │ 4.16124e-05  │ 0.015625     │
+│ 200   │ 0.000542306  │ 2.37523e-06  │ 0.015625     │
 └───────┴──────────────┴──────────────┴──────────────┘
 Maximum allowed iterations reached.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 1 mins, 9 secs, 539 msecs
+Time elapsed: 0 mins, 8 secs, 249 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 1 mins, 31 secs, 967 msecs
+Time elapsed: 0 mins, 10 secs, 405 msecs
 Saved file ../../code/dexamethasone/output/estimator.pkl.
 ┌──────────────────────────────────────┐
 │ESTIMATING REGION: 1.14 - 1.0 ppm (F2)│
@@ -723,11 +781,11 @@ Saved file ../../code/dexamethasone/output/estimator.pkl.
 --> Checking for oscillators with negative damping...
 	WARNING: Oscillations with negative damping
 	factors detected. These have been deleted.
-	Corrected number of oscillations: 9
+	Corrected number of oscillations: 10
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 5 secs, 343 msecs
+Time elapsed: 0 mins, 6 secs, 168 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -737,33 +795,46 @@ Time elapsed: 0 mins, 5 secs, 343 msecs
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.283572     │ 1.07756      │ 1            │
-│ 10    │ 0.254492     │ 0.00189905   │ 1            │
-│ 20    │ 0.254072     │ 0.00155389   │ 4            │
-│ 30    │ 0.253868     │ 0.000187376  │ 4            │
-│ 40    │ 0.25381      │ 0.0479122    │ 4            │
-│ 50    │ 0.253798     │ 0.000744984  │ 4            │
-│ 60    │ 0.253782     │ 0.0088966    │ 4            │
-│ 70    │ 0.253767     │ 0.0155921    │ 4            │
-│ 80    │ 0.253754     │ 0.00605909   │ 4            │
-│ 90    │ 0.253745     │ 0.000969683  │ 4            │
-│ 100   │ 0.253733     │ 0.000290449  │ 4            │
-│ 110   │ 0.253722     │ 0.00314718   │ 4            │
-│ 120   │ 0.253717     │ 8.05661e-06  │ 4            │
-│ 130   │ 0.253716     │ 2.04648e-05  │ 1            │
-│ 140   │ 0.253716     │ 3.67438e-07  │ 0.0625       │
-│ 150   │ 0.253716     │ 6.50079e-06  │ 0.00390625   │
-│ 159   │ 0.253716     │ 4.78297e-09  │ 0.000244141  │
+│ 0     │ 0.210924     │ 0.162795     │ 1            │
+│ 10    │ 0.00646161   │ 0.0442825    │ 2            │
+│ 20    │ 0.00539626   │ 0.0125223    │ 2            │
+│ 25    │ 0.00532704   │ 0.000235789  │ 1            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 95 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 9
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.00563396   │ 0.0614344    │ 1            │
+│ 10    │ 0.00550976   │ 0.00322943   │ 1            │
+│ 20    │ 0.00545955   │ 0.000835508  │ 1            │
+│ 30    │ 0.00541081   │ 0.000224095  │ 1            │
+│ 40    │ 0.00532203   │ 1.81734e-05  │ 4            │
+│ 50    │ 0.005285     │ 0.0016959    │ 4            │
+│ 60    │ 0.00525692   │ 0.000649165  │ 4            │
+│ 70    │ 0.00523565   │ 1.48847e-05  │ 4            │
+│ 80    │ 0.00521957   │ 1.99453e-05  │ 4            │
+│ 90    │ 0.00521921   │ 1.49346e-07  │ 0.25         │
+│ 95    │ 0.00521921   │ 5.81706e-09  │ 0.015625     │
 └───────┴──────────────┴──────────────┴──────────────┘
 Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 18 secs, 616 msecs
+Time elapsed: 0 mins, 0 secs, 455 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 19 secs, 280 msecs
+Time elapsed: 0 mins, 0 secs, 653 msecs
 Saved file ../../code/dexamethasone/output/estimator.pkl.
 ┌──────────────────────────────────────┐
 │ESTIMATING REGION: 1.0 - 0.65 ppm (F2)│
@@ -784,7 +855,7 @@ Saved file ../../code/dexamethasone/output/estimator.pkl.
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 2 secs, 448 msecs
+Time elapsed: 0 mins, 2 secs, 227 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -794,20 +865,17 @@ Time elapsed: 0 mins, 2 secs, 448 msecs
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.016342     │ 1.50411      │ 1            │
-│ 10    │ 0.00742569   │ 0.00107548   │ 1            │
-│ 20    │ 0.00742562   │ 3.48777e-08  │ 0.000976562  │
-│ 30    │ 0.00742562   │ 3.48777e-08  │ 9.31323e-10  │
-│ 32    │ 0.00742562   │ 3.48777e-08  │ 5.82077e-11  │
+│ 0     │ 0.00785995   │ 0.434187     │ 1            │
+│ 9     │ 0.0060726    │ 9.06167e-09  │ 1            │
 └───────┴──────────────┴──────────────┴──────────────┘
-Improvement could not be predicted.
+Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 1 secs, 722 msecs
+Time elapsed: 0 mins, 0 secs, 44 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 2 secs, 73 msecs
+Time elapsed: 0 mins, 0 secs, 150 msecs
 Saved file ../../code/dexamethasone/output/estimator.pkl.
 
