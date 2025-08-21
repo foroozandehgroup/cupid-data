@@ -1,0 +1,361 @@
+┌───────────────────────────────────────┐
+│ESTIMATING REGION: 2.35 - 2.23 ppm (F2)│
+└───────────────────────────────────────┘
+┌─────────────┐
+│MMEMP STARTED│
+└─────────────┘
+--> Computing number of oscillators...
+	Number of oscillators will be estimated using MDL on first t1 increment.
+	Number of oscillators: 18
+--> Pencil parameters: 64, 54
+--> Enhanced Block Hankel matrix constructed:
+	Size: 3456 x 3575
+	Memory: 0.1841GiB
+--> Performing Singular Value Decomposition...
+--> Checking for oscillators with negative damping...
+	None found
+┌──────────────┐
+│MMEMP COMPLETE│
+└──────────────┘
+Time elapsed: 0 mins, 6 secs, 908 msecs
+┌────────────────────┐
+│OPTIMISATION STARTED│
+└────────────────────┘
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.974257     │ 3.5483       │ 1            │
+│ 10    │ 0.321665     │ 0.767998     │ 4            │
+│ 20    │ 0.081199     │ 0.923564     │ 4            │
+│ 30    │ 0.0666007    │ 0.0659808    │ 1            │
+│ 40    │ 0.0656932    │ 0.0016108    │ 0.25         │
+│ 50    │ 0.0656779    │ 6.85192e-05  │ 0.0078125    │
+│ 60    │ 0.0656779    │ 2.32662e-06  │ 0.000244141  │
+│ 70    │ 0.0656779    │ 1.96518e-07  │ 7.62939e-06  │
+│ 80    │ 0.0656779    │ 2.72743e-08  │ 1.49012e-08  │
+│ 81    │ 0.0656779    │ 2.72743e-08  │ 3.72529e-09  │
+└───────┴──────────────┴──────────────┴──────────────┘
+Improvement could not be predicted.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 2 secs, 268 msecs
+┌─────────────────────┐
+│OPTIMISATION COMPLETE│
+└─────────────────────┘
+Time elapsed: 0 mins, 2 secs, 495 msecs
+Saved file ../../code/camphor/output/estimator.pkl.
+┌────────────────────────────────────────┐
+│ESTIMATING REGION: 2.09 - 2.025 ppm (F2)│
+└────────────────────────────────────────┘
+┌─────────────┐
+│MMEMP STARTED│
+└─────────────┘
+--> Computing number of oscillators...
+	Number of oscillators will be estimated using MDL on first t1 increment.
+	Number of oscillators: 7
+--> Pencil parameters: 64, 30
+--> Enhanced Block Hankel matrix constructed:
+	Size: 1920 x 1950
+	Memory: 57.1289MiB
+--> Performing Singular Value Decomposition...
+--> Checking for oscillators with negative damping...
+	None found
+┌──────────────┐
+│MMEMP COMPLETE│
+└──────────────┘
+Time elapsed: 0 mins, 3 secs, 346 msecs
+┌────────────────────┐
+│OPTIMISATION STARTED│
+└────────────────────┘
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.682607     │ 0.68543      │ 1            │
+│ 10    │ 0.0831616    │ 0.0642811    │ 0.5          │
+│ 20    │ 0.0463012    │ 0.118197     │ 0.5          │
+│ 25    │ 0.0384544    │ 0.0728172    │ 1            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 141 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 3
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 2.76362      │ 12.0802      │ 1            │
+│ 10    │ 0.0468639    │ 0.00144143   │ 2            │
+│ 20    │ 0.0468506    │ 5.69003e-08  │ 2            │
+│ 22    │ 0.0468506    │ 9.92542e-09  │ 2            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Optimiser successfully converged.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 88 msecs
+┌─────────────────────┐
+│OPTIMISATION COMPLETE│
+└─────────────────────┘
+Time elapsed: 0 mins, 0 secs, 334 msecs
+Saved file ../../code/camphor/output/estimator.pkl.
+┌───────────────────────────────────────┐
+│ESTIMATING REGION: 1.95 - 1.75 ppm (F2)│
+└───────────────────────────────────────┘
+┌─────────────┐
+│MMEMP STARTED│
+└─────────────┘
+--> Computing number of oscillators...
+	Number of oscillators will be estimated using MDL on first t1 increment.
+	Number of oscillators: 35
+--> Pencil parameters: 64, 90
+--> Enhanced Block Hankel matrix constructed:
+	Size: 5760 x 5850
+	Memory: 0.5021GiB
+--> Performing Singular Value Decomposition...
+--> Checking for oscillators with negative damping...
+	WARNING: Oscillations with negative damping
+	factors detected. These have been deleted.
+	Corrected number of oscillations: 32
+┌──────────────┐
+│MMEMP COMPLETE│
+└──────────────┘
+Time elapsed: 0 mins, 13 secs, 154 msecs
+┌────────────────────┐
+│OPTIMISATION STARTED│
+└────────────────────┘
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.439189     │ 2.10457      │ 1            │
+│ 10    │ 0.239196     │ 0.273113     │ 4            │
+│ 20    │ 0.160718     │ 1.68251      │ 2            │
+│ 25    │ 0.0777637    │ 4.84918      │ 4            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 2 secs, 270 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 31
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.0749498    │ 4.84107      │ 1            │
+│ 10    │ 0.053563     │ 0.117363     │ 0.125        │
+│ 20    │ 0.0419826    │ 0.904474     │ 0.25         │
+│ 30    │ 0.0305264    │ 0.629773     │ 1            │
+│ 40    │ 0.0201343    │ 0.162959     │ 2            │
+│ 50    │ 0.0198248    │ 0.0724058    │ 0.125        │
+│ 60    │ 0.0197705    │ 0.00092067   │ 0.25         │
+│ 70    │ 0.019752     │ 0.000490441  │ 0.25         │
+│ 80    │ 0.0197351    │ 0.00393897   │ 0.25         │
+│ 90    │ 0.0197263    │ 0.0248753    │ 0.015625     │
+│ 100   │ 0.0197239    │ 0.001099     │ 0.03125      │
+│ 110   │ 0.0197223    │ 0.000148144  │ 0.03125      │
+│ 120   │ 0.0197212    │ 0.00249943   │ 0.03125      │
+│ 130   │ 0.0197201    │ 0.0225966    │ 0.0625       │
+│ 140   │ 0.0197196    │ 0.000148036  │ 0.015625     │
+│ 150   │ 0.019719     │ 0.000371407  │ 0.015625     │
+│ 160   │ 0.0197185    │ 0.000373911  │ 0.015625     │
+│ 170   │ 0.0197182    │ 0.000294358  │ 0.015625     │
+│ 180   │ 0.0197179    │ 0.000155138  │ 0.015625     │
+│ 190   │ 0.0197175    │ 6.14538e-05  │ 0.0078125    │
+│ 200   │ 0.0197173    │ 0.00233611   │ 0.0078125    │
+│ 210   │ 0.0197172    │ 0.00311091   │ 0.015625     │
+│ 220   │ 0.019717     │ 0.0272531    │ 0.0078125    │
+│ 230   │ 0.0197169    │ 4.64948e-05  │ 0.0078125    │
+│ 240   │ 0.0197168    │ 0.000464548  │ 0.0078125    │
+│ 250   │ 0.0197167    │ 5.47836e-05  │ 0.0078125    │
+│ 260   │ 0.0197166    │ 0.000230922  │ 0.00390625   │
+│ 270   │ 0.0197165    │ 0.000107177  │ 0.015625     │
+│ 280   │ 0.0197165    │ 6.69206e-05  │ 0.00390625   │
+│ 290   │ 0.0197164    │ 0.00164355   │ 0.00390625   │
+│ 300   │ 0.0197164    │ 0.00106088   │ 0.00390625   │
+│ 310   │ 0.0197164    │ 0.000890389  │ 0.00390625   │
+│ 320   │ 0.0197163    │ 0.000845858  │ 0.00390625   │
+│ 330   │ 0.0197163    │ 1.71712e-05  │ 0.00390625   │
+│ 340   │ 0.0197163    │ 3.19652e-05  │ 0.00390625   │
+│ 350   │ 0.0197163    │ 0.000309433  │ 0.00390625   │
+│ 360   │ 0.0197162    │ 0.00655777   │ 0.00195312   │
+│ 370   │ 0.0197162    │ 0.000408044  │ 0.00195312   │
+│ 380   │ 0.0197162    │ 0.000114771  │ 0.00195312   │
+│ 390   │ 0.0197162    │ 0.000297858  │ 0.00195312   │
+│ 400   │ 0.0197162    │ 0.000895981  │ 0.0078125    │
+│ 410   │ 0.0197162    │ 0.000141906  │ 0.00195312   │
+│ 420   │ 0.0197162    │ 8.19145e-05  │ 0.00195312   │
+│ 430   │ 0.0197162    │ 0.000240441  │ 0.000976562  │
+│ 440   │ 0.0197162    │ 9.17124e-05  │ 0.000976562  │
+│ 450   │ 0.0197162    │ 0.00010463   │ 0.000976562  │
+│ 460   │ 0.0197162    │ 0.000117068  │ 0.000244141  │
+│ 470   │ 0.0197162    │ 0.00109707   │ 0.000488281  │
+│ 480   │ 0.0197162    │ 6.88464e-05  │ 0.000488281  │
+│ 490   │ 0.0197162    │ 4.75642e-05  │ 0.000488281  │
+│ 500   │ 0.0197162    │ 4.67694e-06  │ 0.000488281  │
+└───────┴──────────────┴──────────────┴──────────────┘
+Maximum allowed iterations reached.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 42 secs, 166 msecs
+┌─────────────────────┐
+│OPTIMISATION COMPLETE│
+└─────────────────────┘
+Time elapsed: 0 mins, 44 secs, 864 msecs
+Saved file ../../code/camphor/output/estimator.pkl.
+┌──────────────────────────────────────┐
+│ESTIMATING REGION: 1.7 - 1.61 ppm (F2)│
+└──────────────────────────────────────┘
+┌─────────────┐
+│MMEMP STARTED│
+└─────────────┘
+--> Computing number of oscillators...
+	Number of oscillators will be estimated using MDL on first t1 increment.
+	Number of oscillators: 21
+--> Pencil parameters: 64, 41
+--> Enhanced Block Hankel matrix constructed:
+	Size: 2624 x 2665
+	Memory: 0.1042GiB
+--> Performing Singular Value Decomposition...
+--> Checking for oscillators with negative damping...
+	None found
+┌──────────────┐
+│MMEMP COMPLETE│
+└──────────────┘
+Time elapsed: 0 mins, 7 secs, 50 msecs
+┌────────────────────┐
+│OPTIMISATION STARTED│
+└────────────────────┘
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.176129     │ 2.3736       │ 1            │
+│ 10    │ 0.0650521    │ 0.0203328    │ 2            │
+│ 20    │ 0.0586412    │ 0.0221101    │ 4            │
+│ 30    │ 0.0579152    │ 0.00741654   │ 4            │
+│ 40    │ 0.0578022    │ 8.06779e-05  │ 4            │
+│ 50    │ 0.057801     │ 5.25874e-06  │ 4            │
+│ 60    │ 0.057801     │ 4.31287e-07  │ 4            │
+│ 70    │ 0.057801     │ 3.5947e-08   │ 4            │
+│ 75    │ 0.057801     │ 9.63778e-09  │ 4            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Optimiser successfully converged.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 3 secs, 82 msecs
+┌─────────────────────┐
+│OPTIMISATION COMPLETE│
+└─────────────────────┘
+Time elapsed: 0 mins, 3 secs, 284 msecs
+Saved file ../../code/camphor/output/estimator.pkl.
+┌─────────────────────────────────────────┐
+│ESTIMATING REGION: 1.375 - 1.215 ppm (F2)│
+└─────────────────────────────────────────┘
+┌─────────────┐
+│MMEMP STARTED│
+└─────────────┘
+--> Computing number of oscillators...
+	Number of oscillators will be estimated using MDL on first t1 increment.
+	Number of oscillators: 29
+--> Pencil parameters: 64, 72
+--> Enhanced Block Hankel matrix constructed:
+	Size: 4608 x 4680
+	Memory: 0.3214GiB
+--> Performing Singular Value Decomposition...
+--> Checking for oscillators with negative damping...
+	None found
+┌──────────────┐
+│MMEMP COMPLETE│
+└──────────────┘
+Time elapsed: 0 mins, 8 secs, 924 msecs
+┌────────────────────┐
+│OPTIMISATION STARTED│
+└────────────────────┘
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.654588     │ 3.41876      │ 1            │
+│ 10    │ 0.440055     │ 1.21285      │ 4            │
+│ 20    │ 0.197768     │ 0.832777     │ 2            │
+│ 25    │ 0.145455     │ 0.183377     │ 2            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 1 secs, 660 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 23
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.183061     │ 0.446873     │ 1            │
+│ 10    │ 0.10569      │ 0.141357     │ 2            │
+│ 20    │ 0.0615277    │ 0.017575     │ 4            │
+│ 25    │ 0.0599469    │ 0.00395782   │ 4            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 1 secs, 323 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 22
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.142281     │ 2.94436      │ 1            │
+│ 10    │ 0.0814815    │ 0.0183927    │ 2            │
+│ 20    │ 0.0769045    │ 0.0293758    │ 1            │
+│ 30    │ 0.0750105    │ 0.00294883   │ 2            │
+│ 40    │ 0.074971     │ 1.05552e-05  │ 2            │
+│ 50    │ 0.074971     │ 6.37816e-07  │ 0.000488281  │
+│ 60    │ 0.074971     │ 2.73978e-07  │ 7.62939e-06  │
+│ 64    │ 0.074971     │ 4.44378e-09  │ 4.76837e-07  │
+└───────┴──────────────┴──────────────┴──────────────┘
+Optimiser successfully converged.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 3 secs, 180 msecs
+┌─────────────────────┐
+│OPTIMISATION COMPLETE│
+└─────────────────────┘
+Time elapsed: 0 mins, 6 secs, 469 msecs
+Saved file ../../code/camphor/output/estimator.pkl.
+
