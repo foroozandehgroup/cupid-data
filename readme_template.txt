@@ -18,25 +18,34 @@ This repository provides the experimental datasets which are presented in the fo
 
 ## Datasets
 
-* `data/camphor/1/` - Camphor 2DJ dataset, presented in the {SI_LONG}, Figure 8.
+* `data/camphor/1/` - Camphor 2DJ dataset, presented in the {SI_LONG} ({SI_SHORT}), Figure 9:
 
     - `pdata/1/` - Processed 2DJ data.
     - `pdata/2/` - Pure-shift spectrum produced using a 45° tilt and projection.
 
-* `data/dexamethasone/1/` - Dexamethasone data, presented in the {SI_SHORT}, Figure 9:
+* `data/dexamethasone/` - Dexamethasone data ({SI_SHORT} Figure 10):
 
     - `1/` - 2DJ dataset.
     - `2/` - TSE-PSYCHE dataset.
     - `1002/` - Reconstructed TSE-PSYCHE dataset (reconstruction done using
       [pshift](http://nmr.chemistry.manchester.ac.uk/sites/default/files/pshift)).
 
-* `data/estradiol/` - 17β-estradiol dataset, presented in Figure 3 of the main paper:
+* `data/estradiol/` - 17β-estradiol dataset (main paper Figure 3):
 
     - `1/` - 2DJ dataset.
     - `2/` - PSYCHE dataset.
     - `1002/` - Reconstructed PSYCHE dataset.
 
-* `data/quinine/1` - Quinine 2DJ dataset, presented in Figure 2 of the main paper.
+* `data/quinine/1` - Quinine 2DJ dataset (main paper Figure 2):
 
     - `pdata/1/` - Processed 2DJ spectrum.
     - `pdata/2/` - Pure-shift spectrum produced using a 45° tilt and projection.
+
+## Code
+
+The results present in the paper can be reporduced by running the Jupyter
+notebooks within the `code/` directory:
+
+* `code/strychnine/` - Simulated strychnine result ({SI_SHORT} Figure 8).
+
+* `code/camphor/` - Camphor result, ({SI_SHORT} Figure 9).

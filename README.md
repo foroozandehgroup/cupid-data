@@ -1,4 +1,4 @@
-# CUPID Paper: Experimental Data
+# CUPID Paper: Experimental Data and Code
 
 [![DOI](https://zenodo.org/badge/814870133.svg)](https://zenodo.org/badge/latestdoi/814870133)
 
