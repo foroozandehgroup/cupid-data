@@ -17,7 +17,7 @@
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 6 secs, 908 msecs
+Time elapsed: 0 mins, 5 secs, 965 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -42,11 +42,11 @@ Improvement could not be predicted.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 2 secs, 268 msecs
+Time elapsed: 0 mins, 2 secs, 123 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 2 secs, 495 msecs
+Time elapsed: 0 mins, 2 secs, 344 msecs
 Saved file ../../code/camphor/output/estimator.pkl.
 ┌────────────────────────────────────────┐
 │ESTIMATING REGION: 2.09 - 2.025 ppm (F2)│
@@ -67,7 +67,7 @@ Saved file ../../code/camphor/output/estimator.pkl.
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 3 secs, 346 msecs
+Time elapsed: 0 mins, 3 secs, 470 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -86,7 +86,7 @@ Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 0 secs, 141 msecs
+Time elapsed: 0 mins, 0 secs, 134 msecs
 Negative amplitudes detected.
 These oscillators will be removed
 Updated number of oscillators: 3
@@ -105,11 +105,11 @@ Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 0 secs, 88 msecs
+Time elapsed: 0 mins, 0 secs, 80 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 0 secs, 334 msecs
+Time elapsed: 0 mins, 0 secs, 318 msecs
 Saved file ../../code/camphor/output/estimator.pkl.
 ┌───────────────────────────────────────┐
 │ESTIMATING REGION: 1.95 - 1.75 ppm (F2)│
@@ -132,7 +132,7 @@ Saved file ../../code/camphor/output/estimator.pkl.
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 13 secs, 154 msecs
+Time elapsed: 0 mins, 12 secs, 967 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -151,7 +151,7 @@ Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 2 secs, 270 msecs
+Time elapsed: 0 mins, 2 secs, 85 msecs
 Negative amplitudes detected.
 These oscillators will be removed
 Updated number of oscillators: 31
@@ -217,11 +217,11 @@ Maximum allowed iterations reached.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 42 secs, 166 msecs
+Time elapsed: 0 mins, 40 secs, 446 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 44 secs, 864 msecs
+Time elapsed: 0 mins, 42 secs, 950 msecs
 Saved file ../../code/camphor/output/estimator.pkl.
 ┌──────────────────────────────────────┐
 │ESTIMATING REGION: 1.7 - 1.61 ppm (F2)│
@@ -242,7 +242,7 @@ Saved file ../../code/camphor/output/estimator.pkl.
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 7 secs, 50 msecs
+Time elapsed: 0 mins, 7 secs, 179 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -266,11 +266,11 @@ Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 3 secs, 82 msecs
+Time elapsed: 0 mins, 2 secs, 648 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 3 secs, 284 msecs
+Time elapsed: 0 mins, 2 secs, 847 msecs
 Saved file ../../code/camphor/output/estimator.pkl.
 ┌─────────────────────────────────────────┐
 │ESTIMATING REGION: 1.375 - 1.215 ppm (F2)│
@@ -291,7 +291,7 @@ Saved file ../../code/camphor/output/estimator.pkl.
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 8 secs, 924 msecs
+Time elapsed: 0 mins, 8 secs, 379 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -310,7 +310,7 @@ Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 1 secs, 660 msecs
+Time elapsed: 0 mins, 1 secs, 730 msecs
 Negative amplitudes detected.
 These oscillators will be removed
 Updated number of oscillators: 23
@@ -329,7 +329,7 @@ Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 1 secs, 323 msecs
+Time elapsed: 0 mins, 1 secs, 283 msecs
 Negative amplitudes detected.
 These oscillators will be removed
 Updated number of oscillators: 22
@@ -352,10 +352,9 @@ Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 3 secs, 180 msecs
+Time elapsed: 0 mins, 3 secs, 137 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 6 secs, 469 msecs
+Time elapsed: 0 mins, 6 secs, 442 msecs
 Saved file ../../code/camphor/output/estimator.pkl.
-
