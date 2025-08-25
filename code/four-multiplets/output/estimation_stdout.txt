@@ -1,0 +1,408 @@
+┌───────────────────────────────────────┐
+│ESTIMATING REGION: 35.0 - -35.0 Hz (F2)│
+└───────────────────────────────────────┘
+┌─────────────┐
+│MMEMP STARTED│
+└─────────────┘
+--> Computing number of oscillators...
+	Number of oscillators has been pre-defined
+	Number of oscillators: 36
+--> Pencil parameters: 64, 40
+--> Enhanced Block Hankel matrix constructed:
+	Size: 2560 x 2600
+	Memory: 101.5625MiB
+--> Performing Singular Value Decomposition...
+--> Checking for oscillators with negative damping...
+	None found
+┌──────────────┐
+│MMEMP COMPLETE│
+└──────────────┘
+Time elapsed: 0 mins, 9 secs, 624 msecs
+┌────────────────────┐
+│OPTIMISATION STARTED│
+└────────────────────┘
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.154095     │ 0.969129     │ 1            │
+│ 10    │ 0.0583931    │ 0.0348171    │ 2            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 399 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 35
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.0604304    │ 0.519394     │ 1            │
+│ 10    │ 0.0315508    │ 0.470186     │ 1            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 438 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 33
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.0318848    │ 0.526503     │ 1            │
+│ 10    │ 0.00339946   │ 0.0524189    │ 2            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 372 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 32
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.00728569   │ 1.09957      │ 1            │
+│ 10    │ 0.00456438   │ 6.42148e-06  │ 2            │
+│ 14    │ 0.00456438   │ 2.27079e-09  │ 2            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Optimiser successfully converged.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 620 msecs
+┌─────────────────────┐
+│OPTIMISATION COMPLETE│
+└─────────────────────┘
+Time elapsed: 0 mins, 2 secs, 134 msecs
+Saved file ../../code/four-multiplets/output/estimator_1.pkl.
+┌───────────────────────────────────────┐
+│ESTIMATING REGION: 35.0 - -35.0 Hz (F2)│
+└───────────────────────────────────────┘
+┌─────────────┐
+│MMEMP STARTED│
+└─────────────┘
+--> Computing number of oscillators...
+	Number of oscillators has been pre-defined
+	Number of oscillators: 36
+--> Pencil parameters: 64, 40
+--> Enhanced Block Hankel matrix constructed:
+	Size: 2560 x 2600
+	Memory: 101.5625MiB
+--> Performing Singular Value Decomposition...
+--> Checking for oscillators with negative damping...
+	None found
+┌──────────────┐
+│MMEMP COMPLETE│
+└──────────────┘
+Time elapsed: 0 mins, 9 secs, 495 msecs
+┌────────────────────┐
+│OPTIMISATION STARTED│
+└────────────────────┘
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.175255     │ 0.532198     │ 1            │
+│ 10    │ 0.0552375    │ 1.27361      │ 2            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 610 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 35
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.055855     │ 1.29885      │ 1            │
+│ 10    │ 0.00340969   │ 0.00602508   │ 2            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 435 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 32
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.00407456   │ 0.224157     │ 1            │
+│ 10    │ 0.00365533   │ 1.29169e-06  │ 2            │
+│ 13    │ 0.00365533   │ 3.91913e-09  │ 2            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Optimiser successfully converged.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 589 msecs
+┌─────────────────────┐
+│OPTIMISATION COMPLETE│
+└─────────────────────┘
+Time elapsed: 0 mins, 1 secs, 895 msecs
+Saved file ../../code/four-multiplets/output/estimator_2.pkl.
+┌───────────────────────────────────────┐
+│ESTIMATING REGION: 35.0 - -35.0 Hz (F2)│
+└───────────────────────────────────────┘
+┌─────────────┐
+│MMEMP STARTED│
+└─────────────┘
+--> Computing number of oscillators...
+	Number of oscillators has been pre-defined
+	Number of oscillators: 36
+--> Pencil parameters: 64, 40
+--> Enhanced Block Hankel matrix constructed:
+	Size: 2560 x 2600
+	Memory: 101.5625MiB
+--> Performing Singular Value Decomposition...
+--> Checking for oscillators with negative damping...
+	None found
+┌──────────────┐
+│MMEMP COMPLETE│
+└──────────────┘
+Time elapsed: 0 mins, 9 secs, 301 msecs
+┌────────────────────┐
+│OPTIMISATION STARTED│
+└────────────────────┘
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.237578     │ 1.7213       │ 1            │
+│ 10    │ 0.0734921    │ 0.466943     │ 4            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 591 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 35
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.0629209    │ 0.464467     │ 1            │
+│ 10    │ 0.00279414   │ 0.0137366    │ 2            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 415 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 32
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.0035898    │ 0.265707     │ 1            │
+│ 10    │ 0.00287214   │ 6.02382e-05  │ 2            │
+│ 18    │ 0.00287209   │ 3.99879e-09  │ 2            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Optimiser successfully converged.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 1 secs, 100 msecs
+┌─────────────────────┐
+│OPTIMISATION COMPLETE│
+└─────────────────────┘
+Time elapsed: 0 mins, 2 secs, 368 msecs
+Saved file ../../code/four-multiplets/output/estimator_3.pkl.
+┌───────────────────────────────────────┐
+│ESTIMATING REGION: 35.0 - -35.0 Hz (F2)│
+└───────────────────────────────────────┘
+┌─────────────┐
+│MMEMP STARTED│
+└─────────────┘
+--> Computing number of oscillators...
+	Number of oscillators has been pre-defined
+	Number of oscillators: 36
+--> Pencil parameters: 64, 40
+--> Enhanced Block Hankel matrix constructed:
+	Size: 2560 x 2600
+	Memory: 101.5625MiB
+--> Performing Singular Value Decomposition...
+--> Checking for oscillators with negative damping...
+	None found
+┌──────────────┐
+│MMEMP COMPLETE│
+└──────────────┘
+Time elapsed: 0 mins, 9 secs, 805 msecs
+┌────────────────────┐
+│OPTIMISATION STARTED│
+└────────────────────┘
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.180327     │ 1.07562      │ 1            │
+│ 10    │ 0.0417985    │ 0.545873     │ 4            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 426 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 35
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.0380791    │ 0.545511     │ 1            │
+│ 10    │ 0.00618282   │ 0.219907     │ 1            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 421 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 32
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.00684088   │ 0.343911     │ 1            │
+│ 10    │ 0.00613341   │ 4.2198e-05   │ 2            │
+│ 15    │ 0.0061334    │ 2.92549e-09  │ 2            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Optimiser successfully converged.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 839 msecs
+┌─────────────────────┐
+│OPTIMISATION COMPLETE│
+└─────────────────────┘
+Time elapsed: 0 mins, 1 secs, 998 msecs
+Saved file ../../code/four-multiplets/output/estimator_4.pkl.
+┌───────────────────────────────────────┐
+│ESTIMATING REGION: 35.0 - -35.0 Hz (F2)│
+└───────────────────────────────────────┘
+┌─────────────┐
+│MMEMP STARTED│
+└─────────────┘
+--> Computing number of oscillators...
+	Number of oscillators has been pre-defined
+	Number of oscillators: 36
+--> Pencil parameters: 64, 40
+--> Enhanced Block Hankel matrix constructed:
+	Size: 2560 x 2600
+	Memory: 101.5625MiB
+--> Performing Singular Value Decomposition...
+--> Checking for oscillators with negative damping...
+	None found
+┌──────────────┐
+│MMEMP COMPLETE│
+└──────────────┘
+Time elapsed: 0 mins, 9 secs, 709 msecs
+┌────────────────────┐
+│OPTIMISATION STARTED│
+└────────────────────┘
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.253191     │ 1.72932      │ 1            │
+│ 10    │ 0.106437     │ 1.41894      │ 0.5          │
+│ 20    │ 0.0180467    │ 0.214823     │ 1            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 1 secs, 5 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 34
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.0187266    │ 0.289106     │ 1            │
+│ 10    │ 0.00527933   │ 0.00735378   │ 2            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Negative amplitude(s) detected.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 0 secs, 560 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 32
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.00558095   │ 0.13944      │ 1            │
+│ 10    │ 0.00449581   │ 0.0149448    │ 1            │
+│ 20    │ 0.00405753   │ 0.0409536    │ 0.5          │
+│ 30    │ 0.00386043   │ 0.0204073    │ 1            │
+│ 40    │ 0.00374652   │ 0.000313437  │ 0.5          │
+│ 50    │ 0.00374631   │ 1.86368e-07  │ 0.5          │
+│ 58    │ 0.00374631   │ 8.96698e-09  │ 0.5          │
+└───────┴──────────────┴──────────────┴──────────────┘
+Optimiser successfully converged.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 2 secs, 809 msecs
+┌─────────────────────┐
+│OPTIMISATION COMPLETE│
+└─────────────────────┘
+Time elapsed: 0 mins, 4 secs, 635 msecs
+Saved file ../../code/four-multiplets/output/estimator_5.pkl.
+
