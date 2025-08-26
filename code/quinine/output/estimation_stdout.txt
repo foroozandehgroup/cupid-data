@@ -6,18 +6,18 @@
 └─────────────┘
 --> Computing number of oscillators...
 	Number of oscillators will be estimated using MDL on first t1 increment.
-	Number of oscillators: 19
+	Number of oscillators: 18
 --> Pencil parameters: 64, 75
 --> Enhanced Block Hankel matrix constructed:
-	Size: 4800 x 4875
-	Memory: 0.3487GiB
+	Size: 4800 x 4940
+	Memory: 0.3533GiB
 --> Performing Singular Value Decomposition...
 --> Checking for oscillators with negative damping...
 	None found
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 6 secs, 938 msecs
+Time elapsed: 0 mins, 6 secs, 668 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -27,23 +27,23 @@ Time elapsed: 0 mins, 6 secs, 938 msecs
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.765395     │ 2.12474      │ 1            │
-│ 10    │ 0.360679     │ 0.28678      │ 1            │
-│ 20    │ 0.0444402    │ 0.0860343    │ 2            │
-│ 30    │ 0.0217191    │ 0.0137445    │ 2            │
-│ 40    │ 0.0180626    │ 0.170504     │ 0.5          │
-│ 50    │ 0.0137172    │ 0.0628201    │ 2            │
-│ 60    │ 0.0103026    │ 0.0234792    │ 0.25         │
-│ 70    │ 0.00804025   │ 0.0132511    │ 2            │
-│ 80    │ 0.00611847   │ 0.0396844    │ 1            │
-│ 90    │ 0.00566398   │ 0.00211223   │ 0.5          │
-│ 100   │ 0.0055824    │ 0.0374165    │ 0.25         │
+│ 0     │ 0.723091     │ 1.92945      │ 1            │
+│ 10    │ 0.356134     │ 0.432166     │ 2            │
+│ 20    │ 0.0585058    │ 1.53125      │ 2            │
+│ 30    │ 0.0213598    │ 0.0530847    │ 1            │
+│ 40    │ 0.0174588    │ 0.056428     │ 0.25         │
+│ 50    │ 0.0122053    │ 0.0177336    │ 2            │
+│ 60    │ 0.00802323   │ 0.00282105   │ 0.5          │
+│ 70    │ 0.00700618   │ 0.00986402   │ 0.5          │
+│ 80    │ 0.00654699   │ 0.0149531    │ 1            │
+│ 90    │ 0.00614074   │ 0.00355521   │ 0.5          │
+│ 100   │ 0.00576705   │ 0.00175006   │ 0.25         │
 └───────┴──────────────┴──────────────┴──────────────┘
 Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 4 secs, 72 msecs
+Time elapsed: 0 mins, 3 secs, 510 msecs
 Negative amplitudes detected.
 These oscillators will be removed
 Updated number of oscillators: 10
@@ -53,23 +53,23 @@ Updated number of oscillators: 10
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 121.895      │ 128.585      │ 1            │
-│ 10    │ 0.19888      │ 0.130862     │ 2            │
-│ 20    │ 0.156958     │ 0.0685339    │ 0.5          │
-│ 30    │ 0.0973539    │ 0.0821738    │ 2            │
-│ 40    │ 0.0258186    │ 0.001422     │ 4            │
-│ 50    │ 0.0258064    │ 1.41505e-08  │ 4            │
-│ 51    │ 0.0258064    │ 5.86003e-09  │ 4            │
+│ 0     │ 88.5451      │ 114.592      │ 1            │
+│ 10    │ 0.179228     │ 0.239162     │ 1            │
+│ 20    │ 0.143021     │ 0.628542     │ 0.5          │
+│ 30    │ 0.0999549    │ 0.108292     │ 0.5          │
+│ 40    │ 0.0386144    │ 0.101028     │ 4            │
+│ 50    │ 0.0256362    │ 3.81091e-07  │ 4            │
+│ 54    │ 0.0256362    │ 9.47296e-09  │ 4            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 0 secs, 935 msecs
+Time elapsed: 0 mins, 0 secs, 948 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 5 secs, 191 msecs
+Time elapsed: 0 mins, 4 secs, 638 msecs
 Saved file ../../code/quinine/output/estimator.pkl.
 ┌──────────────────────────────────────┐
 │ESTIMATING REGION: 5.0 - 4.85 ppm (F2)│
@@ -78,8 +78,8 @@ Saved file ../../code/quinine/output/estimator.pkl.
 │MMEMP STARTED│
 └─────────────┘
 --> Computing number of oscillators...
-	Number of oscillators will be estimated using MDL on first t1 increment.
-	Number of oscillators: 15
+	Number of oscillators has been pre-defined
+	Number of oscillators: 17
 --> Pencil parameters: 64, 45
 --> Enhanced Block Hankel matrix constructed:
 	Size: 2880 x 2990
@@ -90,7 +90,7 @@ Saved file ../../code/quinine/output/estimator.pkl.
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 3 secs, 994 msecs
+Time elapsed: 0 mins, 3 secs, 939 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -100,19 +100,19 @@ Time elapsed: 0 mins, 3 secs, 994 msecs
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.0261852    │ 1.35093      │ 1            │
-│ 10    │ 0.0198936    │ 2.14928e-05  │ 2            │
-│ 16    │ 0.0198936    │ 4.83048e-09  │ 2            │
+│ 0     │ 0.0141101    │ 0.686385     │ 1            │
+│ 10    │ 0.010073     │ 2.23537e-06  │ 1            │
+│ 15    │ 0.010073     │ 2.68636e-09  │ 1            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 0 secs, 352 msecs
+Time elapsed: 0 mins, 0 secs, 354 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 0 secs, 530 msecs
+Time elapsed: 0 mins, 0 secs, 547 msecs
 Saved file ../../code/quinine/output/estimator.pkl.
 ┌───────────────────────────────────────┐
 │ESTIMATING REGION: 3.75 - 3.63 ppm (F2)│
@@ -122,7 +122,7 @@ Saved file ../../code/quinine/output/estimator.pkl.
 └─────────────┘
 --> Computing number of oscillators...
 	Number of oscillators will be estimated using MDL on first t1 increment.
-	Number of oscillators: 15
+	Number of oscillators: 14
 --> Pencil parameters: 64, 36
 --> Enhanced Block Hankel matrix constructed:
 	Size: 2304 x 2405
@@ -133,7 +133,7 @@ Saved file ../../code/quinine/output/estimator.pkl.
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 4 secs, 787 msecs
+Time elapsed: 0 mins, 3 secs, 102 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -143,23 +143,23 @@ Time elapsed: 0 mins, 4 secs, 787 msecs
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.227999     │ 1.27941      │ 1            │
-│ 10    │ 0.0604331    │ 0.103559     │ 0.5          │
-│ 20    │ 0.0150438    │ 0.0200716    │ 0.5          │
-│ 30    │ 0.00941279   │ 0.0131468    │ 0.25         │
-│ 40    │ 0.00850282   │ 0.000903619  │ 0.25         │
-│ 50    │ 0.00811945   │ 0.0147658    │ 2            │
-│ 60    │ 0.00810949   │ 0.000151245  │ 0.25         │
-│ 70    │ 0.00810593   │ 0.000148646  │ 0.0625       │
-│ 80    │ 0.00809927   │ 0.00773343   │ 0.5          │
-│ 90    │ 0.00809143   │ 0.00610771   │ 0.5          │
-│ 100   │ 0.00807749   │ 0.0121055    │ 0.5          │
+│ 0     │ 0.285471     │ 3.76778      │ 1            │
+│ 10    │ 0.146872     │ 0.068907     │ 1            │
+│ 20    │ 0.0272928    │ 1.01072      │ 1            │
+│ 30    │ 0.00982951   │ 0.000428572  │ 1            │
+│ 40    │ 0.00958369   │ 0.000910668  │ 2            │
+│ 50    │ 0.00927486   │ 0.00107108   │ 2            │
+│ 60    │ 0.00906629   │ 0.000858225  │ 2            │
+│ 70    │ 0.00886711   │ 0.00288703   │ 4            │
+│ 80    │ 0.00878402   │ 0.000191542  │ 4            │
+│ 90    │ 0.00871668   │ 0.000198042  │ 4            │
+│ 100   │ 0.00867036   │ 8.14858e-05  │ 4            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 1 secs, 614 msecs
+Time elapsed: 0 mins, 1 secs, 516 msecs
 Negative amplitudes detected.
 These oscillators will be removed
 Updated number of oscillators: 13
@@ -169,19 +169,18 @@ Updated number of oscillators: 13
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 22.789       │ 42.4607      │ 1            │
-│ 10    │ 0.0100299    │ 0.0152787    │ 4            │
-│ 18    │ 0.00988395   │ 9.44403e-09  │ 4            │
+│ 0     │ 0.020123     │ 0.845462     │ 1            │
+│ 9     │ 0.01143      │ 8.6704e-09   │ 1            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 0 secs, 282 msecs
+Time elapsed: 0 mins, 0 secs, 143 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 2 secs, 46 msecs
+Time elapsed: 0 mins, 1 secs, 808 msecs
 Saved file ../../code/quinine/output/estimator.pkl.
 ┌───────────────────────────────────────┐
 │ESTIMATING REGION: 3.17 - 3.06 ppm (F2)│
@@ -191,7 +190,7 @@ Saved file ../../code/quinine/output/estimator.pkl.
 └─────────────┘
 --> Computing number of oscillators...
 	Number of oscillators will be estimated using MDL on first t1 increment.
-	Number of oscillators: 16
+	Number of oscillators: 15
 --> Pencil parameters: 64, 33
 --> Enhanced Block Hankel matrix constructed:
 	Size: 2112 x 2210
@@ -202,7 +201,7 @@ Saved file ../../code/quinine/output/estimator.pkl.
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 4 secs, 855 msecs
+Time elapsed: 0 mins, 4 secs, 550 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -212,51 +211,52 @@ Time elapsed: 0 mins, 4 secs, 855 msecs
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.957155     │ 2.98951      │ 1            │
-│ 10    │ 0.0935584    │ 0.290012     │ 4            │
-│ 20    │ 0.0323455    │ 0.0108903    │ 2            │
-│ 30    │ 0.0233819    │ 0.0185338    │ 2            │
-│ 40    │ 0.0190121    │ 0.00502007   │ 0.5          │
-│ 50    │ 0.0176782    │ 0.0064326    │ 0.125        │
-│ 60    │ 0.0154507    │ 0.0144822    │ 4            │
-│ 70    │ 0.0125828    │ 0.00795793   │ 4            │
-│ 80    │ 0.0113912    │ 0.0037155    │ 2            │
-│ 90    │ 0.0110875    │ 0.0254843    │ 1            │
-│ 100   │ 0.0110021    │ 0.00189831   │ 0.5          │
+│ 0     │ 0.782324     │ 2.67134      │ 1            │
+│ 10    │ 0.0443491    │ 0.135451     │ 2            │
+│ 20    │ 0.0289995    │ 0.0351479    │ 0.5          │
+│ 30    │ 0.0239251    │ 0.0309624    │ 2            │
+│ 40    │ 0.016707     │ 0.0168263    │ 4            │
+│ 50    │ 0.013996     │ 0.00872888   │ 2            │
+│ 60    │ 0.0127794    │ 0.0686333    │ 2            │
+│ 70    │ 0.0122502    │ 0.00566723   │ 0.5          │
+│ 80    │ 0.0117109    │ 0.020208     │ 1            │
+│ 90    │ 0.0107766    │ 0.0131263    │ 4            │
+│ 100   │ 0.0104269    │ 0.000752726  │ 1            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 1 secs, 797 msecs
+Time elapsed: 0 mins, 1 secs, 383 msecs
 Negative amplitudes detected.
 These oscillators will be removed
-Updated number of oscillators: 12
+Updated number of oscillators: 11
 ┌───────────────────────────┐
 │TRUST NCG ALGORITHM STARTED│
 └───────────────────────────┘
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.170016     │ 3.22703      │ 1            │
-│ 10    │ 0.0214122    │ 0.0289417    │ 4            │
-│ 20    │ 0.0197764    │ 0.00259251   │ 1            │
-│ 30    │ 0.0188376    │ 0.0240341    │ 4            │
-│ 40    │ 0.0182979    │ 0.0185046    │ 0.5          │
-│ 50    │ 0.0181979    │ 0.00124939   │ 0.25         │
-│ 60    │ 0.0181973    │ 4.52582e-06  │ 0.00390625   │
-│ 70    │ 0.0181973    │ 2.66231e-07  │ 0.00012207   │
-│ 79    │ 0.0181973    │ 5.82197e-09  │ 1.52588e-05  │
+│ 0     │ 51.3314      │ 40.4983      │ 1            │
+│ 10    │ 0.0321951    │ 0.0181654    │ 2            │
+│ 20    │ 0.0222271    │ 0.0112063    │ 4            │
+│ 30    │ 0.0202178    │ 0.00408088   │ 1            │
+│ 40    │ 0.0193686    │ 0.00882318   │ 1            │
+│ 50    │ 0.0187518    │ 0.000358204  │ 4            │
+│ 60    │ 0.0187408    │ 1.85919e-05  │ 0.0625       │
+│ 70    │ 0.0187408    │ 1.10704e-06  │ 0.000976562  │
+│ 80    │ 0.0187408    │ 1.36863e-08  │ 7.62939e-06  │
+│ 82    │ 0.0187408    │ 3.08424e-09  │ 7.62939e-06  │
 └───────┴──────────────┴──────────────┴──────────────┘
 Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 1 secs, 27 msecs
+Time elapsed: 0 mins, 0 secs, 799 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 2 secs, 961 msecs
+Time elapsed: 0 mins, 2 secs, 309 msecs
 Saved file ../../code/quinine/output/estimator.pkl.
 ┌─────────────────────────────────────┐
 │ESTIMATING REGION: 2.8 - 2.6 ppm (F2)│
@@ -277,7 +277,7 @@ Saved file ../../code/quinine/output/estimator.pkl.
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 5 secs, 178 msecs
+Time elapsed: 0 mins, 4 secs, 736 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -287,23 +287,23 @@ Time elapsed: 0 mins, 5 secs, 178 msecs
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.473919     │ 2.07629      │ 1            │
-│ 10    │ 0.14584      │ 0.120692     │ 4            │
-│ 20    │ 0.0534878    │ 0.0924393    │ 2            │
-│ 30    │ 0.0240244    │ 0.0127546    │ 4            │
-│ 40    │ 0.0180813    │ 0.244077     │ 4            │
-│ 50    │ 0.0173619    │ 0.0131033    │ 2            │
-│ 60    │ 0.0169305    │ 0.103247     │ 0.5          │
-│ 70    │ 0.0166102    │ 0.0117084    │ 0.25         │
-│ 80    │ 0.0164331    │ 0.00556709   │ 0.25         │
-│ 90    │ 0.0163279    │ 0.0241511    │ 0.25         │
-│ 100   │ 0.0161699    │ 0.0662951    │ 0.5          │
+│ 0     │ 0.452407     │ 2.26375      │ 1            │
+│ 10    │ 0.139461     │ 0.639118     │ 2            │
+│ 20    │ 0.0395302    │ 0.0472298    │ 4            │
+│ 30    │ 0.0201315    │ 0.0249974    │ 4            │
+│ 40    │ 0.0172085    │ 0.319576     │ 4            │
+│ 50    │ 0.0160839    │ 0.00295649   │ 1            │
+│ 60    │ 0.0155403    │ 0.00616022   │ 0.5          │
+│ 70    │ 0.0152656    │ 0.0062044    │ 0.125        │
+│ 80    │ 0.01508      │ 0.00216786   │ 0.125        │
+│ 90    │ 0.0149851    │ 0.00427704   │ 0.0625       │
+│ 100   │ 0.0148812    │ 0.017833     │ 0.25         │
 └───────┴──────────────┴──────────────┴──────────────┘
 Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 3 secs, 613 msecs
+Time elapsed: 0 mins, 3 secs, 110 msecs
 Negative amplitudes detected.
 These oscillators will be removed
 Updated number of oscillators: 18
@@ -313,23 +313,24 @@ Updated number of oscillators: 18
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 18.4669      │ 53.3233      │ 1            │
-│ 10    │ 0.0302607    │ 0.0185417    │ 2            │
-│ 20    │ 0.0236689    │ 0.00279973   │ 4            │
-│ 30    │ 0.0234363    │ 0.000113373  │ 0.25         │
-│ 40    │ 0.023436     │ 1.93137e-05  │ 0.00195312   │
-│ 50    │ 0.023436     │ 5.5018e-08   │ 1.52588e-05  │
-│ 53    │ 0.023436     │ 8.01421e-09  │ 1.52588e-05  │
+│ 0     │ 8.87432      │ 36.1978      │ 1            │
+│ 10    │ 0.0276788    │ 0.147437     │ 4            │
+│ 20    │ 0.021726     │ 0.0122996    │ 4            │
+│ 30    │ 0.0215976    │ 0.000485707  │ 0.25         │
+│ 40    │ 0.0215964    │ 1.25656e-05  │ 0.00390625   │
+│ 50    │ 0.0215964    │ 9.92191e-08  │ 0.000244141  │
+│ 60    │ 0.0215964    │ 3.94021e-08  │ 1.90735e-06  │
+│ 61    │ 0.0215964    │ 6.65392e-09  │ 1.90735e-06  │
 └───────┴──────────────┴──────────────┴──────────────┘
 Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 1 secs, 693 msecs
+Time elapsed: 0 mins, 1 secs, 950 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 5 secs, 550 msecs
+Time elapsed: 0 mins, 5 secs, 284 msecs
 Saved file ../../code/quinine/output/estimator.pkl.
 ┌─────────────────────────────────────┐
 │ESTIMATING REGION: 2.0 - 1.7 ppm (F2)│
@@ -350,7 +351,7 @@ Saved file ../../code/quinine/output/estimator.pkl.
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 11 secs, 390 msecs
+Time elapsed: 0 mins, 10 secs, 856 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -360,48 +361,48 @@ Time elapsed: 0 mins, 11 secs, 390 msecs
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.44857      │ 4.40991      │ 1            │
-│ 10    │ 0.222147     │ 0.161789     │ 1            │
-│ 20    │ 0.0383361    │ 0.93794      │ 4            │
-│ 30    │ 0.022384     │ 0.0204571    │ 4            │
-│ 40    │ 0.0163876    │ 0.0954992    │ 0.5          │
-│ 50    │ 0.0140833    │ 0.0823549    │ 1            │
-│ 60    │ 0.0128437    │ 0.00495752   │ 4            │
-│ 70    │ 0.012241     │ 0.0111329    │ 2            │
-│ 80    │ 0.0120027    │ 0.0399878    │ 1            │
-│ 90    │ 0.011891     │ 0.0051232    │ 1            │
-│ 100   │ 0.0117803    │ 0.00826596   │ 0.5          │
+│ 0     │ 0.518585     │ 5.19559      │ 1            │
+│ 10    │ 0.233532     │ 0.275274     │ 4            │
+│ 20    │ 0.0671793    │ 0.430894     │ 2            │
+│ 30    │ 0.0177525    │ 0.166383     │ 4            │
+│ 40    │ 0.0138491    │ 0.0771529    │ 1            │
+│ 50    │ 0.012345     │ 0.0435367    │ 0.25         │
+│ 60    │ 0.0108819    │ 0.0272114    │ 4            │
+│ 70    │ 0.0103537    │ 0.0682176    │ 0.5          │
+│ 80    │ 0.0101907    │ 0.00218623   │ 0.0625       │
+│ 90    │ 0.0101126    │ 0.00862952   │ 0.25         │
+│ 100   │ 0.0100184    │ 0.00123476   │ 0.125        │
 └───────┴──────────────┴──────────────┴──────────────┘
 Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 10 secs, 141 msecs
+Time elapsed: 0 mins, 9 secs, 439 msecs
 Negative amplitudes detected.
 These oscillators will be removed
-Updated number of oscillators: 35
+Updated number of oscillators: 33
 ┌───────────────────────────┐
 │TRUST NCG ALGORITHM STARTED│
 └───────────────────────────┘
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.0213323    │ 1.70708      │ 1            │
-│ 10    │ 0.0122948    │ 0.0783321    │ 2            │
-│ 20    │ 0.0122241    │ 0.000476753  │ 0.125        │
-│ 30    │ 0.0122239    │ 2.37714e-05  │ 0.00195312   │
-│ 40    │ 0.0122239    │ 1.21533e-06  │ 3.05176e-05  │
-│ 44    │ 0.0122239    │ 7.31279e-09  │ 3.05176e-05  │
+│ 0     │ 2.83382      │ 34.6243      │ 1            │
+│ 10    │ 0.0103374    │ 0.0542427    │ 2            │
+│ 20    │ 0.0101647    │ 9.07624e-05  │ 2            │
+│ 30    │ 0.0101645    │ 1.14967e-06  │ 2            │
+│ 40    │ 0.0101645    │ 4.35961e-08  │ 2            │
+│ 45    │ 0.0101645    │ 8.74384e-09  │ 2            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 4 secs, 950 msecs
+Time elapsed: 0 mins, 4 secs, 266 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 15 secs, 560 msecs
+Time elapsed: 0 mins, 14 secs, 137 msecs
 Saved file ../../code/quinine/output/estimator.pkl.
 ┌───────────────────────────────────────┐
 │ESTIMATING REGION: 1.64 - 1.52 ppm (F2)│
@@ -411,20 +412,18 @@ Saved file ../../code/quinine/output/estimator.pkl.
 └─────────────┘
 --> Computing number of oscillators...
 	Number of oscillators will be estimated using MDL on first t1 increment.
-	Number of oscillators: 20
+	Number of oscillators: 16
 --> Pencil parameters: 64, 36
 --> Enhanced Block Hankel matrix constructed:
 	Size: 2304 x 2405
 	Memory: 84.5508MiB
 --> Performing Singular Value Decomposition...
 --> Checking for oscillators with negative damping...
-	WARNING: Oscillations with negative damping
-	factors detected. These have been deleted.
-	Corrected number of oscillations: 19
+	None found
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 5 secs, 912 msecs
+Time elapsed: 0 mins, 3 secs, 592 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -434,36 +433,53 @@ Time elapsed: 0 mins, 5 secs, 912 msecs
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.187518     │ 1.43749      │ 1            │
-│ 10    │ 0.0234821    │ 0.0602283    │ 2            │
-│ 20    │ 0.0170799    │ 0.0052603    │ 4            │
-│ 30    │ 0.0166732    │ 0.00194079   │ 4            │
-│ 40    │ 0.016356     │ 0.0351598    │ 4            │
-│ 50    │ 0.0162388    │ 0.000216264  │ 4            │
-│ 60    │ 0.0159584    │ 0.00749086   │ 4            │
-│ 70    │ 0.0158736    │ 0.00166775   │ 4            │
-│ 80    │ 0.0158698    │ 3.78211e-05  │ 0.5          │
-│ 90    │ 0.0158695    │ 0.000144192  │ 0.125        │
-│ 100   │ 0.0158695    │ 1.13082e-05  │ 0.03125      │
-│ 110   │ 0.0158695    │ 2.37883e-06  │ 0.0078125    │
-│ 120   │ 0.0158695    │ 9.88192e-06  │ 0.00195312   │
-│ 130   │ 0.0158695    │ 1.4159e-06   │ 0.00195312   │
-│ 140   │ 0.0158695    │ 5.99372e-07  │ 0.00195312   │
-│ 150   │ 0.0158695    │ 1.07874e-06  │ 0.000976562  │
-│ 160   │ 0.0158695    │ 8.68478e-08  │ 0.000976562  │
-│ 170   │ 0.0158695    │ 8.88664e-08  │ 0.000488281  │
-│ 180   │ 0.0158695    │ 7.28019e-08  │ 0.000244141  │
-│ 188   │ 0.0158695    │ 8.51436e-09  │ 6.10352e-05  │
+│ 0     │ 0.318307     │ 1.69097      │ 1            │
+│ 10    │ 0.114603     │ 1.37265      │ 2            │
+│ 20    │ 0.0196215    │ 0.100578     │ 4            │
+│ 30    │ 0.0177801    │ 0.00102271   │ 4            │
+│ 40    │ 0.0177778    │ 2.4828e-06   │ 4            │
+│ 50    │ 0.0177778    │ 8.39659e-08  │ 4            │
+│ 57    │ 0.0177778    │ 8.93693e-09  │ 4            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 4 secs, 977 msecs
+Time elapsed: 0 mins, 1 secs, 149 msecs
+Negative amplitudes detected.
+These oscillators will be removed
+Updated number of oscillators: 15
+┌───────────────────────────┐
+│TRUST NCG ALGORITHM STARTED│
+└───────────────────────────┘
+┌───────┬──────────────┬──────────────┬──────────────┐
+│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
+├───────┼──────────────┼──────────────┼──────────────┤
+│ 0     │ 0.0211101    │ 0.192033     │ 1            │
+│ 10    │ 0.0192412    │ 0.00367881   │ 2            │
+│ 20    │ 0.0192346    │ 8.58698e-05  │ 2            │
+│ 30    │ 0.0192292    │ 7.35023e-05  │ 2            │
+│ 40    │ 0.0192245    │ 5.54182e-05  │ 2            │
+│ 50    │ 0.0192213    │ 4.02407e-05  │ 2            │
+│ 60    │ 0.01922      │ 3.15097e-05  │ 2            │
+│ 70    │ 0.0192197    │ 1.09721e-05  │ 2            │
+│ 80    │ 0.0192196    │ 3.79785e-06  │ 2            │
+│ 90    │ 0.0192196    │ 1.29147e-06  │ 2            │
+│ 100   │ 0.0192196    │ 4.33445e-07  │ 2            │
+│ 110   │ 0.0192196    │ 1.4496e-07   │ 2            │
+│ 120   │ 0.0192196    │ 4.84442e-08  │ 2            │
+│ 130   │ 0.0192196    │ 1.61737e-08  │ 2            │
+│ 135   │ 0.0192196    │ 9.34562e-09  │ 2            │
+└───────┴──────────────┴──────────────┴──────────────┘
+Optimiser successfully converged.
+┌────────────────────────────┐
+│TRUST NCG ALGORITHM COMPLETE│
+└────────────────────────────┘
+Time elapsed: 0 mins, 3 secs, 86 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 5 secs, 156 msecs
+Time elapsed: 0 mins, 4 secs, 393 msecs
 Saved file ../../code/quinine/output/estimator.pkl.
 ┌──────────────────────────────────────┐
 │ESTIMATING REGION: 1.52 - 1.4 ppm (F2)│
@@ -473,20 +489,18 @@ Saved file ../../code/quinine/output/estimator.pkl.
 └─────────────┘
 --> Computing number of oscillators...
 	Number of oscillators will be estimated using MDL on first t1 increment.
-	Number of oscillators: 14
+	Number of oscillators: 18
 --> Pencil parameters: 64, 36
 --> Enhanced Block Hankel matrix constructed:
 	Size: 2304 x 2405
 	Memory: 84.5508MiB
 --> Performing Singular Value Decomposition...
 --> Checking for oscillators with negative damping...
-	WARNING: Oscillations with negative damping
-	factors detected. These have been deleted.
-	Corrected number of oscillations: 13
+	None found
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 4 secs, 155 msecs
+Time elapsed: 0 mins, 6 secs, 721 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -496,44 +510,84 @@ Time elapsed: 0 mins, 4 secs, 155 msecs
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.258242     │ 0.430439     │ 1            │
-│ 10    │ 0.0751956    │ 0.502269     │ 2            │
-│ 20    │ 0.0201313    │ 0.196005     │ 1            │
-│ 30    │ 0.0184351    │ 0.00435954   │ 0.25         │
-│ 40    │ 0.0180856    │ 0.00219178   │ 0.125        │
-│ 50    │ 0.0179891    │ 0.00244262   │ 0.125        │
-│ 60    │ 0.0178879    │ 0.00253913   │ 0.125        │
-│ 70    │ 0.0177611    │ 0.00400406   │ 0.125        │
-│ 80    │ 0.0176205    │ 0.0010222    │ 0.125        │
-│ 90    │ 0.017453     │ 0.0149264    │ 0.5          │
-│ 100   │ 0.0173639    │ 0.000151598  │ 0.25         │
+│ 0     │ 0.306977     │ 1.32862      │ 1            │
+│ 10    │ 0.0203782    │ 0.0362353    │ 2            │
+│ 20    │ 0.0144194    │ 0.0109367    │ 0.5          │
+│ 30    │ 0.0117892    │ 0.0719974    │ 1            │
+│ 40    │ 0.00877179   │ 0.0296863    │ 4            │
+│ 50    │ 0.00716076   │ 0.107425     │ 4            │
+│ 60    │ 0.00692199   │ 0.00408651   │ 1            │
+│ 70    │ 0.00668766   │ 0.0115917    │ 4            │
+│ 80    │ 0.00652972   │ 0.0177007    │ 2            │
+│ 90    │ 0.00634222   │ 0.0032024    │ 4            │
+│ 100   │ 0.0060732    │ 0.000245689  │ 4            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 1 secs, 307 msecs
+Time elapsed: 0 mins, 1 secs, 754 msecs
 Negative amplitudes detected.
 These oscillators will be removed
-Updated number of oscillators: 12
+Updated number of oscillators: 16
 ┌───────────────────────────┐
 │TRUST NCG ALGORITHM STARTED│
 └───────────────────────────┘
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.0198384    │ 0.0492574    │ 1            │
-│ 10    │ 0.0189128    │ 5.01461e-09  │ 1            │
+│ 0     │ 0.0181157    │ 0.635938     │ 1            │
+│ 10    │ 0.00949572   │ 0.0013831    │ 4            │
+│ 20    │ 0.00914893   │ 0.0103409    │ 2            │
+│ 30    │ 0.00903883   │ 0.00876078   │ 1            │
+│ 40    │ 0.00896327   │ 0.00963872   │ 1            │
+│ 50    │ 0.00889377   │ 0.00357558   │ 1            │
+│ 60    │ 0.00879339   │ 0.0148168    │ 4            │
+│ 70    │ 0.00871266   │ 0.0178996    │ 0.25         │
+│ 80    │ 0.00869446   │ 0.00810152   │ 0.5          │
+│ 90    │ 0.00868406   │ 0.00851261   │ 0.5          │
+│ 100   │ 0.00867343   │ 0.00460137   │ 1            │
+│ 110   │ 0.00865014   │ 0.00843979   │ 1            │
+│ 120   │ 0.00862705   │ 0.0116081    │ 1            │
+│ 130   │ 0.00861246   │ 0.00775373   │ 1            │
+│ 140   │ 0.00859598   │ 7.25782e-05  │ 1            │
+│ 150   │ 0.00857923   │ 0.00034861   │ 0.5          │
+│ 160   │ 0.00857059   │ 0.000351368  │ 0.5          │
+│ 170   │ 0.00856229   │ 0.000443611  │ 0.5          │
+│ 180   │ 0.0085539    │ 0.000188079  │ 0.5          │
+│ 190   │ 0.00854403   │ 0.00569364   │ 0.5          │
+│ 200   │ 0.0085361    │ 0.0040317    │ 0.5          │
+│ 210   │ 0.00852818   │ 0.00185616   │ 0.25         │
+│ 220   │ 0.00852135   │ 0.0070361    │ 0.5          │
+│ 230   │ 0.00851428   │ 0.00150944   │ 0.25         │
+│ 240   │ 0.0085091    │ 0.00270436   │ 0.25         │
+│ 250   │ 0.0085041    │ 0.00257459   │ 0.25         │
+│ 260   │ 0.00849949   │ 0.00335427   │ 0.25         │
+│ 270   │ 0.00849516   │ 0.00255402   │ 0.25         │
+│ 280   │ 0.00849136   │ 0.00265949   │ 0.25         │
+│ 290   │ 0.00848777   │ 0.00250059   │ 0.25         │
+│ 300   │ 0.00848462   │ 0.00265807   │ 0.25         │
+│ 310   │ 0.00848165   │ 0.00267208   │ 0.25         │
+│ 320   │ 0.00847899   │ 0.00233184   │ 0.25         │
+│ 330   │ 0.00847622   │ 0.00178621   │ 0.25         │
+│ 340   │ 0.00847363   │ 0.00181007   │ 0.25         │
+│ 350   │ 0.00847112   │ 0.0015573    │ 0.25         │
+│ 360   │ 0.00846877   │ 0.0014903    │ 0.25         │
+│ 370   │ 0.00846653   │ 0.00112196   │ 0.25         │
+│ 380   │ 0.00846451   │ 0.000992794  │ 0.25         │
+│ 390   │ 0.00846285   │ 0.000782854  │ 0.25         │
+│ 400   │ 0.00846186   │ 0.000432665  │ 0.25         │
+│ 410   │ 0.00846169   │ 2.35998e-06  │ 0.03125      │
+│ 420   │ 0.00846169   │ 7.72897e-08  │ 0.00195312   │
+│ 428   │ 0.00846169   │ 6.80465e-09  │ 0.00012207   │
 └───────┴──────────────┴──────────────┴──────────────┘
 Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 0 secs, 142 msecs
+Time elapsed: 0 mins, 7 secs, 473 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 1 secs, 589 msecs
+Time elapsed: 0 mins, 9 secs, 389 msecs
 Saved file ../../code/quinine/output/estimator.pkl.
-
-
