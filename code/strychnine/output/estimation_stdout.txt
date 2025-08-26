@@ -17,7 +17,7 @@
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 3 secs, 188 msecs
+Time elapsed: 0 mins, 3 secs, 11 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -27,14 +27,14 @@ Time elapsed: 0 mins, 3 secs, 188 msecs
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.551882     │ 1.21818      │ 1            │
-│ 10    │ 0.297772     │ 0.197012     │ 0.5          │
+│ 0     │ 0.551882     │ 1.21817      │ 1            │
+│ 10    │ 0.294549     │ 0.343973     │ 1            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 0 secs, 83 msecs
+Time elapsed: 0 mins, 0 secs, 81 msecs
 Negative amplitudes detected.
 These oscillators will be removed
 Updated number of oscillators: 6
@@ -44,14 +44,14 @@ Updated number of oscillators: 6
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.34968      │ 0.615272     │ 1            │
-│ 10    │ 0.0637022    │ 0.275024     │ 1            │
+│ 0     │ 0.345962     │ 0.637825     │ 1            │
+│ 10    │ 0.02117      │ 0.166949     │ 2            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 0 secs, 66 msecs
+Time elapsed: 0 mins, 0 secs, 64 msecs
 Negative amplitudes detected.
 These oscillators will be removed
 Updated number of oscillators: 5
@@ -61,36 +61,22 @@ Updated number of oscillators: 5
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.0349979    │ 1.25797      │ 1            │
-│ 10    │ 0.0119054    │ 0.0429939    │ 0.25         │
-└───────┴──────────────┴──────────────┴──────────────┘
-Negative amplitude(s) detected.
-┌────────────────────────────┐
-│TRUST NCG ALGORITHM COMPLETE│
-└────────────────────────────┘
-Time elapsed: 0 mins, 0 secs, 60 msecs
-Negative amplitudes detected.
-These oscillators will be removed
-Updated number of oscillators: 4
-┌───────────────────────────┐
-│TRUST NCG ALGORITHM STARTED│
-└───────────────────────────┘
-┌───────┬──────────────┬──────────────┬──────────────┐
-│ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
-├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.0409493    │ 3.29641      │ 1            │
-│ 10    │ 0.0110762    │ 4.6071e-08   │ 1            │
-│ 12    │ 0.0110762    │ 3.36899e-09  │ 1            │
+│ 0     │ 0.0234697    │ 0.511961     │ 1            │
+│ 10    │ 0.00973888   │ 0.116374     │ 0.5          │
+│ 20    │ 0.0092207    │ 0.00136486   │ 1            │
+│ 30    │ 0.00922062   │ 4.25871e-06  │ 0.015625     │
+│ 40    │ 0.00922062   │ 4.19832e-07  │ 3.05176e-05  │
+│ 41    │ 0.00922062   │ 2.63348e-09  │ 3.05176e-05  │
 └───────┴──────────────┴──────────────┴──────────────┘
 Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 0 secs, 59 msecs
+Time elapsed: 0 mins, 0 secs, 235 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 0 secs, 414 msecs
+Time elapsed: 0 mins, 0 secs, 508 msecs
 Saved file ../../code/strychnine/output/estimator.pkl.
 ┌──────────────────────────────────────┐
 │ESTIMATING REGION: 7.3 - 7.05 ppm (F2)│
@@ -111,7 +97,7 @@ Saved file ../../code/strychnine/output/estimator.pkl.
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 8 secs, 611 msecs
+Time elapsed: 0 mins, 8 secs, 71 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -122,22 +108,22 @@ Time elapsed: 0 mins, 8 secs, 611 msecs
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
 │ 0     │ 0.136741     │ 1.23282      │ 1            │
-│ 10    │ 0.0501671    │ 0.104649     │ 2            │
-│ 20    │ 0.0366392    │ 0.0962774    │ 4            │
-│ 30    │ 0.0358247    │ 0.00362784   │ 1            │
-│ 40    │ 0.0358177    │ 7.77016e-06  │ 1            │
-│ 50    │ 0.0358177    │ 9.13921e-08  │ 1            │
-│ 56    │ 0.0358177    │ 6.8198e-09   │ 1            │
+│ 10    │ 0.0501593    │ 0.10458      │ 2            │
+│ 20    │ 0.0366393    │ 0.0693734    │ 4            │
+│ 30    │ 0.0358184    │ 0.000136968  │ 4            │
+│ 40    │ 0.0358177    │ 1.43102e-06  │ 4            │
+│ 50    │ 0.0358177    │ 1.94923e-08  │ 4            │
+│ 52    │ 0.0358177    │ 8.2102e-09   │ 4            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 4 secs, 200 msecs
+Time elapsed: 0 mins, 3 secs, 488 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 4 secs, 596 msecs
+Time elapsed: 0 mins, 3 secs, 857 msecs
 Saved file ../../code/strychnine/output/estimator.pkl.
 ┌───────────────────────────────────────┐
 │ESTIMATING REGION: 5.96 - 5.87 ppm (F2)│
@@ -158,7 +144,7 @@ Saved file ../../code/strychnine/output/estimator.pkl.
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 2 secs, 808 msecs
+Time elapsed: 0 mins, 2 secs, 269 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -169,21 +155,21 @@ Time elapsed: 0 mins, 2 secs, 808 msecs
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
 │ 0     │ 0.316169     │ 2.25213      │ 1            │
-│ 10    │ 0.109705     │ 0.00172901   │ 2            │
-│ 20    │ 0.109668     │ 0.00216062   │ 0.015625     │
-│ 30    │ 0.109668     │ 9.01623e-06  │ 0.000976562  │
-│ 40    │ 0.109668     │ 3.44095e-07  │ 3.05176e-05  │
-│ 47    │ 0.109668     │ 4.66578e-09  │ 1.90735e-06  │
+│ 10    │ 0.109705     │ 0.00171104   │ 2            │
+│ 20    │ 0.109668     │ 0.00226664   │ 0.015625     │
+│ 30    │ 0.109668     │ 8.38991e-06  │ 0.000244141  │
+│ 40    │ 0.109668     │ 1.41384e-07  │ 1.52588e-05  │
+│ 47    │ 0.109668     │ 7.64002e-09  │ 1.90735e-06  │
 └───────┴──────────────┴──────────────┴──────────────┘
 Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 0 secs, 320 msecs
+Time elapsed: 0 mins, 0 secs, 299 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 0 secs, 482 msecs
+Time elapsed: 0 mins, 0 secs, 428 msecs
 Saved file ../../code/strychnine/output/estimator.pkl.
 ┌──────────────────────────────────────┐
 │ESTIMATING REGION: 4.35 - 4.0 ppm (F2)│
@@ -204,7 +190,7 @@ Saved file ../../code/strychnine/output/estimator.pkl.
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 7 secs, 242 msecs
+Time elapsed: 0 mins, 6 secs, 414 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -215,13 +201,13 @@ Time elapsed: 0 mins, 7 secs, 242 msecs
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
 │ 0     │ 0.30133      │ 0.517512     │ 1            │
-│ 10    │ 0.0999698    │ 0.0581361    │ 2            │
+│ 10    │ 0.0999624    │ 0.0580978    │ 2            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 0 secs, 942 msecs
+Time elapsed: 0 mins, 0 secs, 856 msecs
 Negative amplitudes detected.
 These oscillators will be removed
 Updated number of oscillators: 14
@@ -231,18 +217,18 @@ Updated number of oscillators: 14
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.0920001    │ 0.0563776    │ 1            │
-│ 8     │ 0.0890044    │ 7.02829e-09  │ 1            │
+│ 0     │ 0.0919934    │ 0.0563334    │ 1            │
+│ 8     │ 0.0890044    │ 6.97497e-09  │ 1            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 0 secs, 613 msecs
+Time elapsed: 0 mins, 0 secs, 564 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 1 secs, 937 msecs
+Time elapsed: 0 mins, 1 secs, 766 msecs
 Saved file ../../code/strychnine/output/estimator.pkl.
 ┌──────────────────────────────────────┐
 │ESTIMATING REGION: 4.0 - 3.64 ppm (F2)│
@@ -263,7 +249,7 @@ Saved file ../../code/strychnine/output/estimator.pkl.
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 6 secs, 652 msecs
+Time elapsed: 0 mins, 5 secs, 923 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -274,13 +260,13 @@ Time elapsed: 0 mins, 6 secs, 652 msecs
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
 │ 0     │ 0.0398829    │ 0.973766     │ 1            │
-│ 10    │ 0.00231048   │ 0.0046837    │ 2            │
+│ 10    │ 0.00231047   │ 0.00468499   │ 2            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 0 secs, 840 msecs
+Time elapsed: 0 mins, 0 secs, 807 msecs
 Negative amplitudes detected.
 These oscillators will be removed
 Updated number of oscillators: 14
@@ -290,19 +276,20 @@ Updated number of oscillators: 14
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.00236709   │ 0.247292     │ 1            │
-│ 10    │ 0.00219462   │ 7.47684e-06  │ 1            │
-│ 17    │ 0.00219461   │ 8.01456e-09  │ 1            │
+│ 0     │ 0.00236613   │ 0.245182     │ 1            │
+│ 10    │ 0.00219465   │ 0.000664239  │ 1            │
+│ 20    │ 0.00219461   │ 2.25374e-08  │ 1            │
+│ 21    │ 0.00219461   │ 8.57758e-09  │ 1            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 1 secs, 371 msecs
+Time elapsed: 0 mins, 1 secs, 418 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 2 secs, 611 msecs
+Time elapsed: 0 mins, 2 secs, 585 msecs
 Saved file ../../code/strychnine/output/estimator.pkl.
 ┌──────────────────────────────────────┐
 │ESTIMATING REGION: 3.3 - 3.05 ppm (F2)│
@@ -323,7 +310,7 @@ Saved file ../../code/strychnine/output/estimator.pkl.
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 8 secs, 738 msecs
+Time elapsed: 0 mins, 7 secs, 273 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -334,22 +321,22 @@ Time elapsed: 0 mins, 8 secs, 738 msecs
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
 │ 0     │ 0.258294     │ 7.12807      │ 1            │
-│ 10    │ 0.0173255    │ 0.0907232    │ 2            │
-│ 20    │ 0.014695     │ 0.00111841   │ 4            │
-│ 30    │ 0.0146813    │ 8.57591e-05  │ 0.03125      │
-│ 40    │ 0.0146812    │ 1.08689e-06  │ 0.000976562  │
-│ 50    │ 0.0146812    │ 1.32817e-08  │ 3.8147e-06   │
-│ 52    │ 0.0146812    │ 7.88244e-09  │ 3.8147e-06   │
+│ 10    │ 0.0173309    │ 0.0907128    │ 2            │
+│ 20    │ 0.0147121    │ 0.00559368   │ 4            │
+│ 30    │ 0.0146818    │ 0.000849037  │ 0.0625       │
+│ 40    │ 0.0146812    │ 1.01968e-06  │ 0.00390625   │
+│ 50    │ 0.0146812    │ 2.54061e-08  │ 3.05176e-05  │
+│ 53    │ 0.0146812    │ 7.14206e-09  │ 7.62939e-06  │
 └───────┴──────────────┴──────────────┴──────────────┘
 Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 3 secs, 450 msecs
+Time elapsed: 0 mins, 3 secs, 446 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 3 secs, 830 msecs
+Time elapsed: 0 mins, 3 secs, 802 msecs
 Saved file ../../code/strychnine/output/estimator.pkl.
 ┌──────────────────────────────────────┐
 │ESTIMATING REGION: 3.0 - 2.56 ppm (F2)│
@@ -370,7 +357,7 @@ Saved file ../../code/strychnine/output/estimator.pkl.
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 7 secs, 877 msecs
+Time elapsed: 0 mins, 7 secs, 63 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -381,18 +368,18 @@ Time elapsed: 0 mins, 7 secs, 877 msecs
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
 │ 0     │ 0.0146907    │ 1.61789      │ 1            │
-│ 10    │ 0.0049327    │ 0.0063071    │ 1            │
-│ 18    │ 0.00492871   │ 3.19681e-09  │ 1            │
+│ 10    │ 0.0049327    │ 0.00632252   │ 1            │
+│ 17    │ 0.00492871   │ 6.97465e-09  │ 1            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 1 secs, 630 msecs
+Time elapsed: 0 mins, 1 secs, 556 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 2 secs, 93 msecs
+Time elapsed: 0 mins, 1 secs, 998 msecs
 Saved file ../../code/strychnine/output/estimator.pkl.
 ┌───────────────────────────────────────┐
 │ESTIMATING REGION: 2.45 - 2.25 ppm (F2)│
@@ -413,7 +400,7 @@ Saved file ../../code/strychnine/output/estimator.pkl.
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 5 secs, 701 msecs
+Time elapsed: 0 mins, 4 secs, 920 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -424,13 +411,13 @@ Time elapsed: 0 mins, 5 secs, 701 msecs
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
 │ 0     │ 0.216265     │ 0.32678      │ 1            │
-│ 10    │ 0.0861289    │ 0.381719     │ 0.5          │
+│ 10    │ 0.0750598    │ 0.465766     │ 2            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 0 secs, 285 msecs
+Time elapsed: 0 mins, 0 secs, 251 msecs
 Negative amplitudes detected.
 These oscillators will be removed
 Updated number of oscillators: 10
@@ -440,21 +427,20 @@ Updated number of oscillators: 10
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.0212737    │ 0.372375     │ 1            │
-│ 10    │ 0.00570412   │ 0.00967136   │ 1            │
-│ 20    │ 0.00566304   │ 0.000192742  │ 1            │
-│ 30    │ 0.00566301   │ 5.54453e-08  │ 1            │
-│ 33    │ 0.00566301   │ 8.38897e-09  │ 1            │
+│ 0     │ 0.013576     │ 0.458478     │ 1            │
+│ 10    │ 0.00567968   │ 0.00192864   │ 1            │
+│ 20    │ 0.00566302   │ 1.7755e-05   │ 1            │
+│ 28    │ 0.00566301   │ 8.7606e-09   │ 1            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 0 secs, 905 msecs
+Time elapsed: 0 mins, 0 secs, 629 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 1 secs, 436 msecs
+Time elapsed: 0 mins, 1 secs, 81 msecs
 Saved file ../../code/strychnine/output/estimator.pkl.
 ┌──────────────────────────────────────┐
 │ESTIMATING REGION: 2.0 - 1.74 ppm (F2)│
@@ -475,7 +461,7 @@ Saved file ../../code/strychnine/output/estimator.pkl.
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 7 secs, 809 msecs
+Time elapsed: 0 mins, 6 secs, 698 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -486,13 +472,13 @@ Time elapsed: 0 mins, 7 secs, 809 msecs
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
 │ 0     │ 0.23176      │ 0.929932     │ 1            │
-│ 10    │ 0.0040134    │ 0.0359422    │ 2            │
+│ 10    │ 0.0040097    │ 0.036371     │ 2            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 0 secs, 262 msecs
+Time elapsed: 0 mins, 0 secs, 233 msecs
 Negative amplitudes detected.
 These oscillators will be removed
 Updated number of oscillators: 7
@@ -502,14 +488,14 @@ Updated number of oscillators: 7
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.00368555   │ 0.0403804    │ 1            │
-│ 10    │ 0.00142248   │ 0.0246697    │ 2            │
+│ 0     │ 0.00368249   │ 0.0434394    │ 1            │
+│ 10    │ 0.0014154    │ 0.0332029    │ 4            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 0 secs, 243 msecs
+Time elapsed: 0 mins, 0 secs, 229 msecs
 Negative amplitudes detected.
 These oscillators will be removed
 Updated number of oscillators: 6
@@ -519,19 +505,19 @@ Updated number of oscillators: 6
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.00165199   │ 0.455965     │ 1            │
-│ 10    │ 0.00147237   │ 2.42248e-07  │ 1            │
-│ 12    │ 0.00147237   │ 8.48131e-09  │ 1            │
+│ 0     │ 0.00169676   │ 0.511624     │ 1            │
+│ 10    │ 0.00147237   │ 1.58836e-07  │ 1            │
+│ 12    │ 0.00147237   │ 5.50678e-09  │ 1            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 0 secs, 240 msecs
+Time elapsed: 0 mins, 0 secs, 219 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 0 secs, 966 msecs
+Time elapsed: 0 mins, 0 secs, 866 msecs
 Saved file ../../code/strychnine/output/estimator.pkl.
 ┌───────────────────────────────────────┐
 │ESTIMATING REGION: 1.55 - 1.35 ppm (F2)│
@@ -552,7 +538,7 @@ Saved file ../../code/strychnine/output/estimator.pkl.
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 5 secs, 727 msecs
+Time elapsed: 0 mins, 4 secs, 870 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -563,13 +549,13 @@ Time elapsed: 0 mins, 5 secs, 727 msecs
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
 │ 0     │ 0.214286     │ 0.253853     │ 1            │
-│ 10    │ 0.0351       │ 2.57941      │ 2            │
+│ 10    │ 0.0350716    │ 2.58049      │ 2            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 0 secs, 222 msecs
+Time elapsed: 0 mins, 0 secs, 246 msecs
 Negative amplitudes detected.
 These oscillators will be removed
 Updated number of oscillators: 9
@@ -579,14 +565,14 @@ Updated number of oscillators: 9
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.029548     │ 1.40678      │ 1            │
-│ 10    │ 0.0076501    │ 0.00191965   │ 1            │
+│ 0     │ 0.0295342    │ 1.41413      │ 1            │
+│ 10    │ 0.00765282   │ 0.00666974   │ 1            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 0 secs, 202 msecs
+Time elapsed: 0 mins, 0 secs, 200 msecs
 Negative amplitudes detected.
 These oscillators will be removed
 Updated number of oscillators: 8
@@ -596,18 +582,18 @@ Updated number of oscillators: 8
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.00794458   │ 0.0296343    │ 1            │
-│ 6     │ 0.00794284   │ 1.08245e-09  │ 1            │
+│ 0     │ 0.00794449   │ 0.0284794    │ 1            │
+│ 6     │ 0.00794284   │ 2.50361e-09  │ 1            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 0 secs, 132 msecs
+Time elapsed: 0 mins, 0 secs, 126 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 0 secs, 771 msecs
+Time elapsed: 0 mins, 0 secs, 757 msecs
 Saved file ../../code/strychnine/output/estimator.pkl.
 ┌──────────────────────────────────────┐
 │ESTIMATING REGION: 1.35 - 1.2 ppm (F2)│
@@ -628,7 +614,7 @@ Saved file ../../code/strychnine/output/estimator.pkl.
 ┌──────────────┐
 │MMEMP COMPLETE│
 └──────────────┘
-Time elapsed: 0 mins, 5 secs, 355 msecs
+Time elapsed: 0 mins, 5 secs, 41 msecs
 ┌────────────────────┐
 │OPTIMISATION STARTED│
 └────────────────────┘
@@ -639,13 +625,13 @@ Time elapsed: 0 mins, 5 secs, 355 msecs
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
 │ 0     │ 0.216934     │ 0.270734     │ 1            │
-│ 10    │ 0.00315441   │ 0.000232276  │ 2            │
+│ 10    │ 0.00315453   │ 0.000210575  │ 2            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Negative amplitude(s) detected.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 0 secs, 177 msecs
+Time elapsed: 0 mins, 0 secs, 138 msecs
 Negative amplitudes detected.
 These oscillators will be removed
 Updated number of oscillators: 6
@@ -655,17 +641,16 @@ Updated number of oscillators: 6
 ┌───────┬──────────────┬──────────────┬──────────────┐
 │ Iter. │  Objective   │  Grad. Norm  │ Trust Radius │
 ├───────┼──────────────┼──────────────┼──────────────┤
-│ 0     │ 0.00433149   │ 0.177896     │ 1            │
-│ 6     │ 0.00421448   │ 4.79016e-09  │ 1            │
+│ 0     │ 0.00433218   │ 0.178003     │ 1            │
+│ 6     │ 0.00421448   │ 4.91094e-09  │ 1            │
 └───────┴──────────────┴──────────────┴──────────────┘
 Optimiser successfully converged.
 ┌────────────────────────────┐
 │TRUST NCG ALGORITHM COMPLETE│
 └────────────────────────────┘
-Time elapsed: 0 mins, 0 secs, 76 msecs
+Time elapsed: 0 mins, 0 secs, 69 msecs
 ┌─────────────────────┐
 │OPTIMISATION COMPLETE│
 └─────────────────────┘
-Time elapsed: 0 mins, 0 secs, 430 msecs
+Time elapsed: 0 mins, 0 secs, 356 msecs
 Saved file ../../code/strychnine/output/estimator.pkl.
-

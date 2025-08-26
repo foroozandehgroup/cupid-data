@@ -3,12 +3,12 @@
 ##DATATYPE= Parameter Values
 ##ORIGIN= NMR-EsPy
 ##OWNER= simonhulse
-$$ 2025-08-21 14:10:49 -0500 simonhulse@dhcp-10-16-7-230
+$$ 2025-08-26 14:18:49 -0500 simonhulse@dhcp-10-16-7-230
 $$ /home/simonhulse/Documents/DPhil/cupid-data/code/strychnine/output/bruker/110/acqus
 ##$AQ_mod= 3
 ##$BF1= 499.8595977993542
 ##$BYTORDA= 0
-##$DATE= 1755785449
+##$DATE= 1756217929
 ##$DTYPA= 0
 ##$GRPDLY= 0
 ##$NC= -31
