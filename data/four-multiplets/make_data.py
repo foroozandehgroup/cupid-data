@@ -2,8 +2,8 @@ from collections import deque
 from dataclasses import dataclass
 from itertools import combinations
 from pathlib import Path
-import pickle
 import subprocess
+import tomli_w
 from typing import ClassVar, Self
 
 import numpy as np
@@ -78,7 +78,21 @@ class Dataset:
 
         return cls(shifts, couplings, sfo, sw, offset, pts)
 
-    def func_call_str(self, savepath: Path) -> str:
+    @property
+    def shift_and_coupling_info(self) -> dict:
+        shift_info = {}
+        coupling_info = {}
+        for i, shift in enumerate(self.shifts[:4], start=1):
+            shift_info[str(i)] = "{:.4f}".format(self.sfo * shift)
+            cinfo = {}
+            for i1, i2, coupling in self.couplings:
+                if i == i1:
+                    cinfo[str(i2)] = "{:.4f}".format(coupling)
+            coupling_info[str(i)] = cinfo
+        info = {"shifts": shift_info, "couplings": coupling_info}
+        return info
+
+    def func_call_str_2dj(self, savepath: Path) -> str:
         return "gen_2dj({}, {}, {}, {}, {}, {}, '{}');".format(
             self.shifts_matlab_str,
             self.couplings_matlab_str,
@@ -86,6 +100,16 @@ class Dataset:
             self.sw_matlab_str,
             self.offset,
             self.pts_matlab_str,
+            savepath,
+        )
+
+    def func_call_str_ps(self, savepath: Path) -> str:
+        return "gen_ps({}, {}, {}, {}, {}, '{}');".format(
+            self.shifts_matlab_str,
+            self.sfo,
+            self.sw[1],
+            self.offset,
+            self.pts[1],
             savepath,
         )
 
@@ -142,12 +166,21 @@ class Datasets:
         outdir.mkdir(exist_ok=True)
         func_call_strs = []
         for i, ds in enumerate(self.datasets, start=1):
-            savepath = outdir / "dataset_{}.mat".format(i)
-            func_call_strs.append(ds.func_call_str(savepath))
+            savepath_2dj = outdir / "dataset_{}.mat".format(i)
+            savepath_ps = outdir / "dataset_ps_{}.mat".format(i)
+            func_call_strs.append(ds.func_call_str_2dj(savepath_2dj))
+            func_call_strs.append(ds.func_call_str_ps(savepath_ps))
         func_calls = " ".join(func_call_strs)
         cmd = self.CMD_TMPL.format(self.MATLAB, func_calls)
-        print('cmd: {}'.format(cmd))
         subprocess.run(cmd, shell=True)
+
+    @property
+    def shift_and_coupling_info(self) -> str:
+        info = {}
+        for i, dataset in enumerate(self.datasets, start=1):
+            info["estimator_{}".format(i)] = dataset.shift_and_coupling_info
+        toml = tomli_w.dumps(info)
+        return toml
 
 
 def main():
@@ -188,8 +221,8 @@ def main():
 
     datasets.run_spinach(outdir)
 
-    with open(outdir / "dataset_info.pkl", "wb") as fh:
-        pickle.dump(datasets, fh)
+    with open(outdir / "dataset_info.toml", "w") as fh:
+        fh.write(datasets.shift_and_coupling_info)
 
 
 if __name__ == "__main__":

@@ -2,3 +2,4 @@ nmrespy
 jupyterlab
 jupyterlab-vim
 ipympl
+tomli_w
