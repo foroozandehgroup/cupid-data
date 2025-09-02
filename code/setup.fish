@@ -1,3 +1,4 @@
+#!/usr/bin/fish
 python3.12 -m venv .venv
 source .venv/bin/activate.fish
 pip install --upgrade pip

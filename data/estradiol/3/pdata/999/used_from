@@ -1,0 +1,16 @@
+##TITLE= Parameter file, TopSpin 4.0.8
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= simon
+$$ 2023-01-24 21:23:59.643 +0000  simon@precision
+$$ /home/simon/Documents/DPhil/data/sh689032401_1/5/pdata/999/used_from
+$$ process /opt/topspin4.0.8/prog/mod/proc1d
+##$CUREXP= <ser>
+##$DATPATH= </home/simon/Documents/DPhil/data>
+##$EXPNO= 5
+##$NAME= <sh689032401_1>
+##$PROCNO= 1
+##$PROCNO2= 1
+##END=

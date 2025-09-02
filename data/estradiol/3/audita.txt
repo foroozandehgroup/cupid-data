@@ -1,0 +1,25 @@
+##TITLE= Audit trail, TopSpin 3.6.4
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr-user
+$$ Q:/AVB500/2023/data/service/nmr/sh689032401_1/5/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2023-01-24 12:07:31.596 +0000>,<CHEM\nmr-user>,<BREAM-CRL>,<go4>,<TopSpin 3.6.4>,
+      <created by zg on data set with UUID '212e4b00-9bda-11ed-a99b-7486e2254c41'
+       started at 2023-01-24 11:27:48.191 +0000,
+       POWCHK enabled, PULCHK disabled,
+       completed at 2023-01-24 12:07:31.596 +0000
+
+       configuration hash MD5:
+       C7 B6 88 A7 2D 8C A2 95 C9 90 22 81 14 0C C4 E4
+       data hash MD5: 64K * 64
+       23 AD 04 B3 66 6B 15 EF 2B 3F 83 6E DF B1 BE 9C
+>)
+(   2,<2023-01-24 13:49:42.520 +0000>,<CHEM\nmr-user>,<BREAM-CRL>,<dirdata>,<TopSpin 3.6.4>,
+      <wrpa from 1 5 "sh689032401_1" "C:/NMR/data/service/nmr"
+       data hash MD5: 64K * 64
+       23 AD 04 B3 66 6B 15 EF 2B 3F 83 6E DF B1 BE 9C>)
+##END=
+
+$$ hash MD5
+$$ 7D 5B 21 9B 3E 58 87 92 96 3E EB F8 BF 97 2D 21

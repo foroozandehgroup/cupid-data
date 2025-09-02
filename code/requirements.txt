@@ -1,4 +1,4 @@
-nmrespy
+git+https://github.com/foroozandehgroup/NMR-EsPy.git@paper-fixes
 jupyterlab
 jupyterlab-vim
 ipympl

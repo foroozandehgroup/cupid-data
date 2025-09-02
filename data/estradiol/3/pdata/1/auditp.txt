@@ -1,0 +1,34 @@
+##TITLE= Audit trail, TopSpin 4.0.8
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= simon
+$$ /home/simon/Documents/DPhil/data/estradiol/32/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2023-01-24 12:07:31.596 +0000>,<CHEM\nmr-user>,<BREAM-CRL>,<go4>,<TopSpin 3.6.4>,
+      <created by zg on data set with UUID '212e4b00-9bda-11ed-a99b-7486e2254c41'
+       started at 2023-01-24 11:27:48.191 +0000,
+       POWCHK enabled, PULCHK disabled,
+       completed at 2023-01-24 12:07:31.596 +0000
+
+       configuration hash MD5:
+       C7 B6 88 A7 2D 8C A2 95 C9 90 22 81 14 0C C4 E4
+       data hash MD5: 64K * 64
+       23 AD 04 B3 66 6B 15 EF 2B 3F 83 6E DF B1 BE 9C
+>)
+(   2,<2023-01-24 13:49:42.520 +0000>,<CHEM\nmr-user>,<BREAM-CRL>,<dirdata>,<TopSpin 3.6.4>,
+      <wrpa from 1 5 "sh689032401_1" "C:/NMR/data/service/nmr"
+       data hash MD5: 64K * 64
+       23 AD 04 B3 66 6B 15 EF 2B 3F 83 6E DF B1 BE 9C>)
+(   3,<2023-07-21 15:31:38.363 +0100>,<simon>,<precision>,<proc2d>,<TopSpin 4.0.8>,
+      <Start of raw data processing
+       xfb F2: TDeff = 8K SI = 64K WDW = 3 SSB = 0 FT_mod = 6 PKNL = 1 F1: SI = 1K WDW = 3 SSB = 0 FT_mod = 6 FCOR = 0.5
+       data hash MD5: 64K * 1K
+       5F 23 13 D4 A3 29 7D 2F 54 F8 30 C0 7F 9A A2 06>)
+(   4,<2023-07-21 15:31:46.670 +0100>,<simon>,<precision>,<proc2d>,<TopSpin 4.0.8>,
+      <mc2 mc1 F1: PH_mod = 2
+       data hash MD5: 64K * 1K
+       66 C4 5F C9 2D CA 07 B6 3B 4E 24 32 8E A4 24 CD>)
+##END=
+
+$$ hash MD5
+$$ 00 4D B2 E7 7A CD CA 50 40 2E 94 08 14 2A C3 13

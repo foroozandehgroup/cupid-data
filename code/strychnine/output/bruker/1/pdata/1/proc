@@ -3,13 +3,13 @@
 ##DATATYPE= Parameter Values
 ##ORIGIN= NMR-EsPy
 ##OWNER= simonhulse
-$$ 2025-08-26 14:18:46 -0500 simonhulse@dhcp-10-16-7-230
+$$ 2025-09-02 14:35:44 -0500 simonhulse@dhcp-10-16-7-230
 $$ /home/simonhulse/Documents/DPhil/cupid-data/code/strychnine/output/bruker/1/pdata/1/proc
 ##$AXNUC= <1H>
 ##$BYTORDP= 0
 ##$DTYPP= 0
 ##$FTSIZE= 8192
-##$NC_proc= -20
+##$NC_proc= -18
 ##$OFFSET= 10.001537765010275
 ##$PHC0= 0.0
 ##$PHC1= 0.0

@@ -1,0 +1,30 @@
+##TITLE= Audit trail, TopSpin 4.0.8
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= simon
+$$ /home/simon/Documents/DPhil/data/sh689032401_1/5/pdata/999/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2023-01-24 12:07:31.596 +0000>,<CHEM\nmr-user>,<BREAM-CRL>,<go4>,<TopSpin 3.6.4>,
+      <created by zg on data set with UUID '212e4b00-9bda-11ed-a99b-7486e2254c41'
+       started at 2023-01-24 11:27:48.191 +0000,
+       POWCHK enabled, PULCHK disabled,
+       completed at 2023-01-24 12:07:31.596 +0000
+
+       configuration hash MD5:
+       C7 B6 88 A7 2D 8C A2 95 C9 90 22 81 14 0C C4 E4
+       data hash MD5: 64K * 64
+       23 AD 04 B3 66 6B 15 EF 2B 3F 83 6E DF B1 BE 9C
+>)
+(   2,<2023-01-24 13:49:42.520 +0000>,<CHEM\nmr-user>,<BREAM-CRL>,<dirdata>,<TopSpin 3.6.4>,
+      <wrpa from 1 5 "sh689032401_1" "C:/NMR/data/service/nmr"
+       data hash MD5: 64K * 64
+       23 AD 04 B3 66 6B 15 EF 2B 3F 83 6E DF B1 BE 9C>)
+(   3,<2023-01-24 21:23:59.647 +0000>,<simon>,<precision>,<proc1d>,<TopSpin 4.0.8>,
+      <Start of raw data processing
+       mc 1 TDeff = 8K SI = 64K 
+       data hash MD5: 64K
+       09 2D 1B CD 4C 71 76 07 CA BF BB 9E 80 A7 C8 49>)
+##END=
+
+$$ hash MD5
+$$ 52 53 BB 15 37 8A DA 60 D0 C6 8D AD 2D B1 25 45
