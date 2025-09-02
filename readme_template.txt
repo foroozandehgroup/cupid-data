@@ -71,6 +71,10 @@ notebooks within the `code/` directory.
 **You are advised to look at the Quinine and Strychnine notebooks first, as
 detailed descriptions are provided in these.**
 
+**To run a particular notebook, make sure that you lauuch Jupyter Lab inside
+one of the directories listed below. I.e. to look at the quinine notebook, make
+sure you are in `code/quinine/`.**
+
 * `code/quinine/` - Quinine result (main paper Figure 2).
 
 * `code/estradiol/` - 17β-Estradiol result (main paper Figure 3).
