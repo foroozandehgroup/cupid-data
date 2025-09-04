@@ -77,7 +77,7 @@ notebooks within the `code/` directory.
 **You are advised to look at the Quinine and Strychnine notebooks first, as
 detailed descriptions are provided in these.**
 
-**To run a particular notebook, make sure that you launch Jupyter Lab inside
+**To run a particular notebook, make sure that you lauuch Jupyter Lab inside
 one of the directories listed below. I.e. to look at the quinine notebook, make
 sure you are in `code/quinine/`.**
 

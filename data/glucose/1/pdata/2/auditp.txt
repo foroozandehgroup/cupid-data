@@ -1,0 +1,15 @@
+##TITLE= Audit trail, TOPSPIN		Version 2.1
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= bearden
+$$ /opt/topspin/data/bmrb/nmr/bmrb_batch1_110709.Auto01/302/pdata/2/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2011-07-09 18:29:45.874 +0200>,<bearden>,<Bruker700>,<mvrow>,<TOPSPIN 2.1>,
+      <f2projp 2 128 from
+       1 302 "bmrb_batch1_110709.Auto01" "bmrb" "/opt/topspin"
+       data hash MD5: 8K
+       1A 58 0F 17 D1 5A 4B 6C 70 6A 4A BB E8 8D B6 37>)
+##END=
+
+$$ hash MD5
+$$ A0 5D 51 F4 AD EE F3 3D 3F 66 76 79 D5 2C C1 0F

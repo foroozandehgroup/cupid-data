@@ -1,0 +1,17 @@
+##TITLE= Parameter file, TOPSPIN		Version 2.1
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= bearden
+$$ 2011-07-09 18:29:45.873 +0200  bearden@Bruker700
+$$ /opt/topspin/data/bmrb/nmr/bmrb_batch1_110709.Auto01/302/pdata/2/outd
+$$ process /opt/topspin/prog/mod/mvrow
+##$CURPLOT= <hplj1320>
+##$CURPRIN= <$hplj1320>
+##$DFORMAT= <normdp>
+##$LAYOUT= <+/1D_H.xwp>
+##$LFORMAT= <normlp>
+##$PFORMAT= <normpl>
+##$SURQMSG= 1
+##END=
