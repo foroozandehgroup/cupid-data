@@ -19,7 +19,7 @@ with open("readme_template.txt", "r") as fh:
 dst = 'README.md'
 token_file = Path('~/.ghtoken').expanduser()
 github_api_link = 'https://api.github.com/repos/foroozandehgroup/cupid-data'
-field_file = 'https://raw.githubusercontent.com/simonhulse/cupid/master/fields.tex'
+field_file = 'https://raw.githubusercontent.com/foroozandehgroup/cupid-paper/master/macros-private.sty'
 
 repo_id = requests.get(github_api_link).json()['id']
 
