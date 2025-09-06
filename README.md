@@ -42,8 +42,8 @@ Mohammadali Foroozandeh<sup>1</sup> ![ORCID](ORCID-iD_icon_16x16.png) https://or
     - `run.py` - Python script called to make the data.
     - `make_data.m` - MATLAB script which makes a single 2DJ dataset with Spinach.
     - `pathdef.m` - MATLAB script which defines the path. I found that the
-      easiest way to run MATLAB from the command line while ensuring Spinach
-      was visible was to simply place this in the working directory.
+      easiest way to run MATLAB from the command line was to simply place this
+      in the working directory.
     - `jres_seq.m` - 2DJ Spinach pulse sequence.
     - `datasets/dataset_[1-5].mat` - The resultant datasets. These can be
       imported into Python using [`scipy.io.loadmat`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.io.loadmat.html).
@@ -74,8 +74,8 @@ Mohammadali Foroozandeh<sup>1</sup> ![ORCID](ORCID-iD_icon_16x16.png) https://or
 The results presented in the paper can be reproduced by running the Jupyter
 notebooks within the `code/` directory.
 
-**You are advised to look at the Quinine and Strychnine notebooks first, as
-detailed descriptions are provided in these.**
+**You are advised to look at the Quinine notebook first, as detailed
+descriptions are provided at each step of the process.**
 
 **To run a particular notebook, make sure that you launch Jupyter Lab inside
 one of the directories listed below. I.e. to look at the quinine notebook, make
@@ -93,5 +93,9 @@ sure you are in `code/quinine/`.**
 
 * `code/dexamethasone/` - Dexamethasone result, (SI Figure 10).
 
-* `code/reviewer-1/` - A collection of results generated in response to Reviwer
-  1's comments.
+* `code/reviewer-1/` - Some miscellaneous notebooks provided in response to comments from Reviewer 1.
+    - `camphor/` - Considering a region of the camphor dataset.
+    - `glucose/` - Consideration of a D-(+)-glucose dataset, obtained
+      [here](https://bmrb.io/metabolomics/mol_summary/show_data.php?id=bmse000797&whichTab=2)
+    - `estradiol-noise-tolerance` - Running CUPID on instances of the estradiol
+      dataset which have been corrupted by synthetic noise.

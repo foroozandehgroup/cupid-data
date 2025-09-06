@@ -68,8 +68,8 @@ presented in the following paper:
 The results presented in the paper can be reproduced by running the Jupyter
 notebooks within the `code/` directory.
 
-**You are advised to look at the Quinine and Strychnine notebooks first, as
-detailed descriptions are provided in these.**
+**You are advised to look at the Quinine notebook first, as detailed
+descriptions are provided at each step of the process.**
 
 **To run a particular notebook, make sure that you launch Jupyter Lab inside
 one of the directories listed below. I.e. to look at the quinine notebook, make
@@ -87,3 +87,9 @@ sure you are in `code/quinine/`.**
 
 * `code/dexamethasone/` - Dexamethasone result, ({SI_SHORT} Figure 10).
 
+* `code/reviewer-1/` - Some miscellaneous notebooks provided in response to comments from Reviewer 1.
+    - `camphor/` - Considering a region of the camphor dataset.
+    - `glucose/` - Consideration of a D-(+)-glucose dataset, obtained
+      [here](https://bmrb.io/metabolomics/mol_summary/show_data.php?id=bmse000797&whichTab=2)
+    - `estradiol-noise-tolerance` - Running CUPID on instances of the estradiol
+      dataset which have been corrupted by synthetic noise.
